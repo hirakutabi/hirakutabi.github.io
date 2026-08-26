@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>「ひらくたび」問題セット | おもいつきのつづき</title>
+  <meta name="description" content="Android学習アプリ「ひらくたび」で読み込んで使える追加問題セット（国語、理科、簿記、英語、漢字など）の動作確認用サンプル一覧です。">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Google Fonts: Zen Kaku Gothic New -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../" class="site-brand">おもいつきのつづき</a>
+
+      <button class="mobile-menu-btn" aria-label="メニューを開く">&#9776;</button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">ひらくたび紹介</a></li>
+          <li><a href="materials.html" class="active">問題セット</a></li>
+          <li><a href="support.html">サポート (Q&amp;A)</a></li>
+          <li><a href="privacy.html">プライバシー</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    
+    <!-- ページヘッダー -->
+    <div class="page-header">
+      <h1 class="page-title">「ひらくたび」問題セット</h1>
+      <p class="page-subtitle">アプリにダウンロードして読み込める動作確認用サンプルデータ一覧です。</p>
+    </div>
+
+    <!-- ソフトな案内バナー & 注意事項 -->
+    <div style="background: var(--bg-warm); border: 1px solid var(--bg-warm-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin-bottom: 2.5rem; display: flex; align-items: center; gap: 1rem;">
+      <img src="icons/hirakutabi_icon.png" alt="ひらくたび" style="width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0; border: 1px solid var(--bg-warm-border);">
+      <div>
+        <p style="font-size: 0.9rem; color: var(--text-main); font-weight: 500; margin-bottom: 0.2rem;">
+          問題ファイルを保存後、Androidアプリ「ひらくたび」内のインポートメニューから読み込んでお使いください。
+        </p>
+        <p style="font-size: 0.8rem; color: #6b5e4c; line-height: 1.5; margin: 0;">
+          ※配布中の問題セットはアプリの動作確認用データです。問題内容の正確性・正当性は保証しておりません。
+        </p>
+      </div>
+    </div>
+
+    <!-- 追加問題セット一覧 -->
+    <section>
+      <div class="materials-grid">
+        
+        <!-- 国語 -->
+        <a class="material-card" href="data/13-summer-kokugo.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/13-summer-kokugo.png" alt="国語（漢字・接続語・指示語）">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">国語（漢字・接続語・指示語）</h3>
+            <p class="card-desc">接続語や指示語の使い分け、漢字の読み書き練習問題セット。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 理科 (動植物) -->
+        <a class="material-card" href="data/13-summer-rika-bio.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/13-summer-rika-bio.png" alt="理科（動植物）">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科（動植物）</h3>
+            <p class="card-desc">身近な生き物や植物のからだの仕組みと生態に関する問題。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 理科 (観察・実験など) -->
+        <a class="material-card" href="data/13-summer-rika-other.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/13-summer-rika-other.png" alt="理科（観察など）">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科（観察・実験など）</h3>
+            <p class="card-desc">天体観察、水溶液の性質、実験の手順と注意点に関する問題。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 理科 (春の植物) -->
+        <a class="material-card" href="data/13-summer-rika-spring.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/13-summer-rika-spring.png" alt="理科（春）">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科（春の生物）</h3>
+            <p class="card-desc">春に見られる花や昆虫の成長と観察ポイントをまとめたセット。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 日商簿記3級 (基礎) -->
+        <a class="material-card" href="data/nissho_bookkeeping_3_v4_200.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/nissho_bookkeeping_3_v4_200.png" alt="日商簿記3級 基礎">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">日商簿記3級（基礎問題）</h3>
+            <p class="card-desc">仕訳の基本、勘定科目、基本概念を身に付ける200問。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 簿記3級 (実践 第2・3問) -->
+        <a class="material-card" href="data/nissho_bookkeeping_2-3_v4_200.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/nissho_bookkeeping_3_v4_200.png" alt="日商簿記3級 実践">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">日商簿記3級（実践対策）</h3>
+            <p class="card-desc">試験の第2問・第3問形式に合わせた総勘定元帳や試算表の対策。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 特殊な読み・熟字訓 (v2) -->
+        <a class="material-card" href="data/special_reading_compounds_v2_unique_200.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/special_reading_compounds_v2_unique_200.png" alt="特殊な読み・熟字訓">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">特殊な読み・熟字訓</h3>
+            <p class="card-desc">日常で出会う難読漢字や特別な訓読みのマスター200問。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 特殊な読み・難読語 (v1) -->
+        <a class="material-card" href="data/special_reading_compounds_v1_200.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/special_reading_compounds_v2_unique_200.png" alt="難読語・地名など">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">特殊な読み方・難読語集</h3>
+            <p class="card-desc">難読語や特定の分野で使われる特殊な漢字の読み問題。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 小学生 漢字4択問題 -->
+        <a class="material-card" href="data/elementary_kanji_v1_200.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/ji.png" alt="小学生で習う漢字">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">小学生で習う漢字（4択問題）</h3>
+            <p class="card-desc">小学校で学習する基本漢字の正しい読み書き選択問題200問。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 英検2級 -->
+        <a class="material-card" href="data/eiken2_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/check.png" alt="英検2級">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">大人向け・英検2級語彙</h3>
+            <p class="card-desc">英検2級レベルの単語・熟語トレーニング問題集。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <!-- 子ども向け 基礎英語 -->
+        <a class="material-card" href="data/kids_basic_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/check.png" alt="子ども向け 基礎英語">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">子ども向け 基礎英語</h3>
+            <p class="card-desc">アルファベットや身近な英単語を楽しく学べる基礎セット。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <ul class="footer-nav">
+        <li><a href="index.html">ひらくたび紹介</a></li>
+        <li><a href="materials.html">問題セット</a></li>
+        <li><a href="support.html">サポート (Q&amp;A)</a></li>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+      <p class="copyright">&copy; おもいつきのつづき</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+# set_id=adult_eiken2_v1
+# title=大人向け・英検2級
+# version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+achieve_a_goal	With enough practice, you can ___ your goal.	achieve a goal	achieveは「目標などを達成する」という意味です。goalとよく組み合わせて使います。	0	achieve	borrow	divide	escape
+doctor_available	The doctor is not ___ this afternoon, so please come tomorrow.	be available	availableは「手が空いている、利用できる」という意味です。人にも物にも使えます。	1	ordinary	available	private	silent
+refuse_request	She ___ to answer the question because it was too personal.	refuse to do	refuse to doは「～することを拒む」という意味です。後ろにはto不定詞を置きます。	2	promised	managed	refused	expected
+aware_of_risk	Many people are not ___ of the risks of sharing personal information online.	be aware of	be aware ofは「～に気づいている、～を認識している」という意味です。	3	proud	similar	responsible	aware
+benefit_health	Regular exercise can ___ both your body and mind.	benefit＋目的語	benefitは他動詞で「～に利益を与える、～のためになる」という意味です。	0	benefit	contain	replace	supply
+likely_to_rain	It is ___ to rain this evening, so take an umbrella.	be likely to do	be likely to doは「～する可能性が高い」という意味です。	1	unable	likely	careful	ready
+prevent_spreading	This medicine may help ___ the disease from spreading.	prevent A from doing	prevent A from doingは「Aが～するのを防ぐ」という表現です。	2	protect	avoid	prevent	reduce
+enough_evidence	There was not enough ___ to prove that he had broken the rule.	evidence	evidenceは「証拠」を表す不可算名詞なので、通常an evidenceとはしません。	3	purpose	behavior	method	evidence
+improve_service	The company is trying to ___ its customer service.	improve＋目的語	improveは「～を改善する」という意味です。serviceやskillなどとよく使います。	0	improve	invite	repeat	express
+job_requires	This job ___ good communication skills and patience.	require＋名詞	requireは「～を必要とする」という意味です。主語がThis jobなので三人称単数形になります。	1	reminds	requires	receives	repairs
+recognize_voice	I did not ___ her voice at first because the phone connection was poor.	recognize	recognizeは「見覚えや聞き覚えから～だと分かる」という意味です。	2	realize	remember	recognize	recommend
+environmental_issue	Plastic waste has become a serious environmental ___.	environmental issue	issueは「問題、課題」という意味で、environmental issueは「環境問題」を表します。	3	custom	surface	material	issue
+increase_sales	The new advertising campaign helped ___ sales by 20 percent.	increase＋目的語	increaseは他動詞で「～を増やす」という意味でも使えます。	0	increase	depend	remain	occur
+local_residents	Local ___ complained about the noise from the construction site.	local residents	residentは「住民」という意味です。複数の住民を指すためresidentsとなります。	1	passengers	residents	customers	audiences
+solve_problem	We need to find a practical way to ___ this problem.	solve a problem	solveは「問題を解決する」という意味です。problemとよく組み合わせます。	2	cause	raise	solve	spread
+responsible_choice	Consumers are becoming more interested in making environmentally ___ choices.	environmentally responsible	responsibleには「責任ある、配慮した」という意味があり、environmentally responsibleで「環境に配慮した」となります。	3	valuable	traditional	independent	responsible
+accept_offer	After thinking carefully, he decided to ___ the job offer.	accept an offer	acceptは「申し出などを受け入れる」という意味です。	0	accept	reach	attend	produce
+public_transportation	The city plans to improve public ___ by adding more bus routes.	public transportation	transportationは「交通機関、輸送」を表します。public transportationで「公共交通機関」です。	1	population	transportation	education	communication
+maintain_quality	The restaurant works hard to ___ the quality of its food.	maintain quality	maintainは「状態や水準を維持する」という意味です。	2	compare	discover	maintain	introduce
+obvious_reason	It was ___ from his expression that he was disappointed.	It is obvious that	obviousは「明らかな」という意味です。It is obvious thatの形でもよく使います。	3	gentle	ancient	formal	obvious
+reduce_costs	The factory introduced new machines to ___ production costs.	reduce costs	reduceは「量や程度を減らす」という意味です。costやwasteとよく使います。	0	reduce	celebrate	deliver	examine
+valuable_experience	Working abroad was a valuable ___ that taught me many things.	a valuable experience	experienceは「経験、体験」という意味です。ここでは一つの体験なので可算名詞として使われています。	1	condition	experience	direction	tradition
+observe_behavior	Scientists carefully ___ the animals' behavior in the wild.	observe behavior	observeは「注意深く観察する」という意味です。	2	prevent	publish	observe	exchange
+entire_village	The storm caused damage throughout the ___ village.	the entire＋名詞	entireは「全体の、全部の」という意味で、単数名詞の前に置けます。	3	narrow	usual	recent	entire
+provide_information	The website ___ useful information for international students.	provide information	provideは「情報やサービスなどを提供する」という意味です。主語がThe websiteなのでprovidesです。	0	provides	predicts	protects	prepares
+take_part_in	More than 500 students took ___ in the volunteer event.	take part in	take part inは「～に参加する」という意味です。	1	place	part	care	turn
+deal_with	The manager must ___ with customer complaints quickly.	deal with	deal withは「問題などに対処する」という意味です。	2	agree	compare	deal	belong
+in_spite_of	___ the heavy rain, the outdoor concert continued as planned.	in spite of	in spite ofは「～にもかかわらず」という意味で、後ろには名詞を置きます。	3	Because of	According to	Instead of	In spite of
+make_progress	If you study a little every day, you will gradually ___ progress.	make progress	make progressは「進歩する」という決まった組み合わせです。	0	make	do	take	give
+keep_in_touch	Although we live in different countries, we still keep ___ touch.	keep in touch	keep in touchは「連絡を取り続ける」という意味です。	1	on	in	at	by
+look_up_word	When you find an unfamiliar word, try to ___ it up in a dictionary.	look up	look upは「辞書などで調べる」という意味です。代名詞はlook it upのように間に置きます。	2	turn	put	look	bring
+run_out_of	We had to stop cooking because we had run ___ of gas.	run out of	run out ofは「～を使い果たす、～がなくなる」という意味です。	3	away	down	over	out
+be_satisfied_with	Most customers were satisfied ___ the quality of the product.	be satisfied with	be satisfied withは「～に満足している」という意味です。	0	with	from	about	against
+put_off_meeting	They decided to put ___ the meeting until next Monday.	put off	put offは「延期する」という意味です。	1	away	off	out	up
+come_up_with	Our team needs to ___ up with a better solution.	come up with	come up withは「考えや解決策を思いつく」という意味です。	2	get	take	come	make
+be_based_on	The movie is based ___ a true story.	be based on	be based onは「～に基づいている」という意味です。	3	at	for	with	on
+pay_attention_to	Please pay attention ___ the safety instructions.	pay attention to	pay attention toは「～に注意を払う」という意味です。	0	to	for	on	with
+take_advantage_of	We should take advantage ___ this opportunity to learn from experts.	take advantage of	take advantage ofは「機会などを活用する」という意味です。	1	from	of	at	by
+get_rid_of	It is difficult to get ___ of old habits.	get rid of	get rid ofは「不要なものや習慣を取り除く」という意味です。	2	away	out	rid	free
+as_a_result	The train was delayed. As a ___, I missed the beginning of the meeting.	as a result	as a resultは「その結果」という意味で、前の内容から生じた結果を示します。	3	reason	matter	point	result
+be_in_charge_of	Ms. Brown is in charge ___ organizing the school festival.	be in charge of	be in charge ofは「～を担当している」という意味です。	0	of	to	for	with
+by_mistake	I sent the email to the wrong person by ___.	by mistake	by mistakeは「間違って」という意味です。	1	chance	mistake	accidentally	error
+have_difficulty_doing	Some students have difficulty ___ their opinions in English.	have difficulty doing	have difficulty doingは「～するのに苦労する」という意味です。	2	express	to express	expressing	expressed
+be_used_to_doing	She is used to ___ up early because she works at a bakery.	be used to doing	be used to doingは「～することに慣れている」という意味です。toは前置詞なので動名詞を続けます。	3	get	have got	got	getting
+not_only_but_also	The new library is useful not only for students ___ also for local residents.	not only A but also B	not only A but also Bは「AだけでなくBも」という意味です。	0	but	and	or	so
+in_order_to	He left home early in order ___ avoid the morning traffic.	in order to do	in order to doは「～するために」という目的を表します。	1	for	to	that	of
+according_to	___ to the weather forecast, it will be sunny tomorrow.	according to	according toは「～によれば」という意味です。	2	Because	Thanks	According	Due
+be_familiar_with	Are you familiar ___ this computer program?	be familiar with	be familiar withは「～をよく知っている、～に慣れている」という意味です。	3	about	to	of	with
+make_difference	Even a small donation can make a big ___ to the project.	make a difference	make a differenceは「違いを生む、役に立つ」という意味です。	0	difference	decision	promise	balance
+take_for_granted	We often take clean water for ___, but it is not available everywhere.	take A for granted	take A for grantedは「Aを当然のことと思う」という意味です。	1	sure	granted	natural	usual
+present_perfect_since	My aunt ___ in Canada since 2018.	現在完了＋since	sinceで過去の起点を示し、現在まで続く状態なので現在完了形を使います。	2	lives	lived	has lived	is living
+past_perfect_before	By the time the police arrived, the thief ___.	過去完了	警察が到着した時点より前に泥棒が逃げていたため、過去完了形を使います。	3	escapes	has escaped	was escaping	had escaped
+passive_voice	This bridge ___ more than 100 years ago.	過去形の受動態	橋は建てられる側なので、was builtという受動態を使います。	0	was built	built	has built	is building
+conditional_if	If I had more free time, I ___ another language.	仮定法過去	現在の事実に反する仮定なので、if節は過去形、主節はwould＋動詞の原形を使います。	1	learned	would learn	will learn	have learned
+relative_who	The woman ___ helped me at the station was very kind.	主格の関係代名詞who	先行詞が人で、関係詞節の主語になるためwhoを使います。	2	which	whose	who	whom
+relative_which	This is the camera ___ I bought during my trip.	目的格の関係代名詞which	先行詞が物で、関係詞節の目的語になるためwhichを使います。	3	who	where	whose	which
+gerund_avoid	You should avoid ___ personal information on public websites.	avoid doing	avoidの後ろには動名詞を置きます。	0	posting	to post	post	posted
+infinitive_decide	We decided ___ the event because of the storm.	decide to do	decideの後ろにはto不定詞を置きます。	1	canceling	to cancel	cancel	canceled
+modal_must_have	Ken is not answering his phone. He ___ have left it at home.	must have＋過去分詞	must have＋過去分詞は「～したに違いない」という過去についての強い推量を表します。	2	should	can	must	would
+wish_could	I wish I ___ play the piano as well as my sister.	wish＋過去形	現在の実現しにくい願望を表すため、wishの後ろでcouldを使います。	3	can	will	may	could
+comparative_than	This year's exam was much ___ than last year's.	much＋比較級	比較級を強調するときはmuchを使えます。difficultの比較級はmore difficultです。	0	more difficult	most difficult	difficult	the difficult
+the_more_the_more	The more you practice, the ___ confident you will become.	the＋比較級, the＋比較級	「～すればするほど、ますます…」はthe＋比較級を二つ組み合わせて表します。	1	most	more	very	much
+too_to	The box was too heavy for me ___ by myself.	too ... to do	too＋形容詞＋to doは「～すぎて…できない」という意味です。	2	carry	carrying	to carry	carried
+enough_to	Mai was kind enough ___ me with my homework.	形容詞＋enough to do	形容詞＋enough to doは「…するほど十分に～だ」という意味です。	3	help	helping	helped	to help
+so_that	Please speak slowly so ___ everyone can understand you.	so that	so thatは「～するように、～するために」という目的を表します。	0	that	as	what	which
+unless_condition	You cannot enter the building ___ you have an ID card.	unless	unlessは「もし～でなければ」を表します。IDカードがない限り入れないという意味です。	1	because	unless	while	after
+although_contrast	___ the task was difficult, we managed to finish it on time.	although＋節	althoughは「～だけれども」という譲歩を表し、後ろには主語と動詞を含む節を置きます。	2	Despite	Because of	Although	In spite of
+because_of_noun	The baseball game was canceled ___ the heavy rain.	because of＋名詞	because ofの後ろには名詞句を置きます。becauseの後ろには節が必要です。	3	although	because	despite	because of
+reported_speech	Tom said that he ___ busy the following day.	時制の一致	主節が過去形saidなので、翌日の予定を表すwillはwouldに変わります。	0	would be	will be	is	has been
+indirect_question	Could you tell me where the nearest station ___?	間接疑問文	間接疑問文では疑問文の語順ではなく、主語＋動詞の語順にします。	1	does	is	is it	it is
+causative_make	The funny movie made everyone ___.	make＋人＋動詞の原形	使役動詞makeの後ろでは、目的語の後に動詞の原形を置きます。	2	laughed	laughing	laugh	to laugh
+have_object_done	I had my bicycle ___ at the shop yesterday.	have＋目的語＋過去分詞	have＋目的語＋過去分詞は「～を…してもらう」という意味です。	3	repair	repairing	to repair	repaired
+neither_nor	Neither the teacher nor the students ___ aware of the schedule change.	neither A nor B	neither A nor Bでは、動詞は通常、近い方の主語に一致します。studentsが複数なのでwereです。	0	were	was	has	is
+one_of_superlative	This is one of the most interesting books I ___.	one of the＋最上級＋複数名詞	これまでの経験を表すため、現在完了形have ever readを使います。	1	ever read	have ever read	had ever read	am reading
+future_passive	The results ___ on the school website next week.	未来の受動態	結果は発表される側で、next weekは未来なのでwill be announcedを使います。	2	announce	will announce	will be announced	have announced
+would_rather	I would rather stay home ___ go out in this weather.	would rather A than B	would rather A than Bは「BするよりむしろAしたい」という意味です。	3	but	or	to	than
+suggest_gerund	My teacher suggested ___ a short break before continuing.	suggest doing	suggestの後ろに動作を続けるときは動名詞を使います。	0	taking	to take	take	took
+hardly_when	I had hardly sat down ___ the phone rang.	hardly ... when	hardly ... whenは「～するとすぐに…した」という意味です。	1	than	when	while	until
+no_matter_what	No matter ___ happens, we should remain calm.	no matter what	no matter whatは「何が起ころうとも」という意味です。	2	how	which	what	when
+provided_that	You may borrow my laptop ___ that you return it by tomorrow.	provided that	provided thatは「～という条件で」を表します。	3	even	except	unless	provided
+oppose_plan	Several residents strongly ___ the plan to build a new highway.	oppose＋目的語	opposeは「～に反対する」という他動詞で、直後に目的語を置きます。	0	oppose	prevent	demand	afford
+contribute_to	Tourism contributes greatly ___ the local economy.	contribute to	contribute toは「～に貢献する」という意味です。	1	for	to	with	from
+recover_from	It took him several weeks to recover ___ the illness.	recover from	recover fromは「病気や困難から回復する」という意味です。	2	of	with	from	against
+regardless_of	The museum is open every day, regardless ___ the weather.	regardless of	regardless ofは「～に関係なく」という意味です。	3	to	for	from	of
+apply_for	She plans to apply ___ a scholarship to study overseas.	apply for	apply forは「仕事、奨学金などに申し込む」という意味です。	0	for	to	at	with
+consist_of	The committee consists ___ ten teachers and five students.	consist of	consist ofは「～から成る」という意味で、受動態にはしません。	1	from	of	in	with
+participate_in	All employees are encouraged to participate ___ the training program.	participate in	participate inは「～に参加する」という意味です。	2	at	on	in	for
+be_capable_of	This machine is capable ___ producing 1,000 bottles an hour.	be capable of doing	be capable of doingは「～する能力がある」という意味です。ofの後ろには動名詞を置きます。	3	at	to	for	of
+meet_demand	The company increased production to meet the growing ___ for its products.	meet demand	demandは「需要」という意味で、meet the demandは「需要に応える」となります。	0	demand	effect	permission	distance
+reasonable_price	The hotel offers clean rooms at a ___ price.	a reasonable price	reasonableは価格について「手ごろな、妥当な」という意味です。	1	curious	reasonable	separate	rapid
+make_an_effort	You need to make an ___ to speak English every day.	make an effort to do	make an effort to doは「～しようと努力する」という意味です。	2	action	exercise	effort	excuse
+in_conclusion	In ___, the survey shows that most students support the new rule.	in conclusion	in conclusionは「結論として、最後に」という意味です。	3	detail	addition	general	conclusion
+object_to_gerund	Some parents objected to ___ the school day longer.	object to doing	object toは「～に反対する」という意味です。toは前置詞なので動名詞を続けます。	0	making	make	be made	have made
+distinguish_between	Young children sometimes find it difficult to distinguish ___ fact and opinion.	distinguish between A and B	distinguish between A and Bは「AとBを区別する」という意味です。	1	among	between	from	with
+be_worth_doing	The old temple is definitely worth ___.	be worth doing	be worth doingは「～する価値がある」という意味です。	2	visit	to visit	visiting	visited
+not_until	It was not until midnight ___ the firefighters controlled the fire.	It is not until ... that	It was not until ... thatは「…になって初めて～した」という強調構文です。	3	when	which	what	that
+need_not_have	You ___ have brought any food; we already had plenty.	need not have＋過去分詞	need not have＋過去分詞は「～する必要はなかったのに、実際にはした」という意味です。	0	need not	must not	could not	would not
+little_did_know	Little ___ I know that the decision would change my life.	否定語句による倒置	Littleを文頭に置いて「ほとんど知らなかった」を強調すると、助動詞と主語が倒置します。	1	was	did	had	would
+whatever_you_choose	___ you choose, make sure it is something you truly enjoy.	whatever＋主語＋動詞	whateverは「何を～しても」という意味で、名詞節や譲歩節を作ります。	2	However	Whenever	Whatever	Wherever
+despite_being	Despite ___ nervous, she gave an excellent presentation.	despite doing	despiteは前置詞なので、後ろには名詞または動名詞を置きます。	3	she was	was	to be	being

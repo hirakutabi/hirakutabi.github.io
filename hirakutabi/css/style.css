@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap');
+
+:root {
+  /* Hirakutabi Subtle Accent Color System */
+  --primary: #0d5c63;              /* 青緑 (Teal Accent) */
+  --primary-hover: #084348;
+  --primary-light: #f0f7f7;
+  
+  --bg-warm: #f7f3eb;             /* ベージュ (Beige Accent) */
+  --bg-warm-border: #e8e2d5;
+  
+  --bg-main: #ffffff;
+  --bg-sub: #faf9f6;
+  --bg-card: #ffffff;
+  
+  --text-main: #1f2937;            /* やわらかいダークグレー */
+  --text-muted: #6b7280;
+  --text-light: #9ca3af;
+  
+  --border-color: #f3f4f6;
+  --border-strong: #e5e7eb;
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+/* 本文・ナビ・ボタンは OS標準 system-ui */
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ブランド名および主要見出しは Zen Kaku Gothic New */
+.site-brand,
+h1,
+h2,
+.hero-app-name,
+.page-title,
+.section-title-minimal {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-weight: 600;
+}
+
+/* Accessibility: Focus Visible */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible),
+summary:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Header & Navigation */
+.site-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 1.1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ヘッダーブランド: 「お」アイコン削除、文字のみで構成 */
+.site-brand {
+  text-decoration: none;
+  color: var(--text-main);
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition: opacity var(--transition-fast);
+}
+
+.site-brand:hover {
+  opacity: 0.75;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text-main);
+  font-size: 1.35rem;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+/* Main Container */
+main.main-content {
+  flex: 1;
+  max-width: 920px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 5rem;
+}
+
+/* Brand Top */
+.brand-page {
+  min-height: 0;
+}
+
+.brand-header {
+  position: static;
+  background: var(--bg-main);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.brand-header .header-container {
+  max-width: 760px;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.brand-header .site-brand {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+main.brand-home {
+  flex: none;
+  max-width: 760px;
+  padding-top: 3.4rem;
+  padding-bottom: 0;
+}
+
+.brand-intro {
+  padding-bottom: 2.75rem;
+  margin-bottom: 2.25rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.brand-title {
+  margin-bottom: 0.75rem;
+  color: var(--text-main);
+  font-size: clamp(2rem, 4vw, 2.65rem);
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+}
+
+.brand-lead {
+  max-width: 700px;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.8;
+}
+
+.products-section .section-header-minimal {
+  margin-bottom: 0.9rem;
+}
+
+.products-section .section-title-minimal {
+  font-size: 1rem;
+}
+
+.product-list {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.product-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  padding: 1.15rem 1.2rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+}
+
+.product-link-icon {
+  width: 58px;
+  height: 58px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border: 1px solid var(--bg-warm-border);
+  border-radius: 13px;
+}
+
+.product-link-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.product-link-body h3 {
+  margin-bottom: 0.15rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+
+.product-catch {
+  margin-bottom: 0.15rem;
+  color: var(--primary);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.product-description {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.product-detail-link {
+  display: inline-block;
+  margin-top: 0.45rem;
+  color: var(--primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.product-detail-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.brand-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.brand-footer .footer-container {
+  max-width: 760px;
+  gap: 0;
+}
+
+.survey-standalone main.main-content {
+  padding-top: 5rem;
+}
+
+/* Hirakutabi-Focused Minimal Hero Section */
+.hero-section-hirakutabi {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 3.5rem;
+}
+
+.hero-app-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/* 「ひらくたび」アプリアイコン: 存在感をしっかり出すサイズ (72px) */
+.hero-app-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid var(--bg-warm-border);
+}
+
+.hero-app-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-app-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+  color: var(--text-main);
+}
+
+.hero-app-catch {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-top: 0.2rem;
+}
+
+.hero-app-sub {
+  color: var(--text-muted);
+  font-size: 0.98rem;
+  line-height: 1.7;
+  margin-bottom: 1.75rem;
+  max-width: 580px;
+}
+
+.hero-cta-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Accent Buttons & Badges */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.65rem 1.25rem;
+  background: var(--primary);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+}
+
+.status-badge-warm {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.6rem 0.95rem;
+  background: var(--bg-warm);
+  color: #574d3f;
+  border: 1px solid var(--bg-warm-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* Minimal Section Headers */
+.section-header-minimal {
+  margin-bottom: 1.5rem;
+}
+
+.section-title-minimal {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin-bottom: 0.35rem;
+}
+
+.section-desc-minimal {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Minimal Grid Layout for Material Cards */
+.materials-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (min-width: 580px) {
+  .materials-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 860px) {
+  .materials-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Minimal Material Card */
+.material-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.material-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-2px);
+}
+
+.card-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  max-height: 160px;
+  background: var(--bg-sub);
+  border-radius: var(--radius-sm);
+  margin-bottom: 1rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border-color);
+  padding: 0.75rem;
+}
+
+.card-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 0.98rem;
+  font-weight: 600;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  line-height: 1.4;
+  margin-bottom: 0.35rem;
+  color: var(--text-main);
+}
+
+.card-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  flex: 1;
+  line-height: 1.6;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.file-type-badge {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--text-light);
+}
+
+.download-btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.material-card:hover .download-btn {
+  color: var(--primary-hover);
+}
+
+/* Page Containers */
+.page-header {
+  margin-bottom: 2.5rem;
+}
+
+.page-title {
+  font-size: 1.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.content-block {
+  margin-bottom: 3rem;
+}
+
+.content-block h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  margin: 1.75rem 0 0.75rem;
+  color: var(--text-main);
+}
+
+.content-block h2:first-child {
+  margin-top: 0;
+}
+
+.content-block p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  line-height: 1.8;
+}
+
+.content-block ul, .content-block ol {
+  margin-bottom: 1rem;
+  padding-left: 1.4rem;
+}
+
+.content-block li {
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+
+/* Native FAQ Accordion */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+details.faq-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: border-color var(--transition-fast);
+}
+
+details.faq-item[open] {
+  border-color: var(--primary);
+}
+
+summary.faq-question {
+  padding: 1.1rem 1.25rem;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
+  user-select: none;
+}
+
+summary.faq-question::-webkit-details-marker {
+  display: none;
+}
+
+.faq-q-tag {
+  font-weight: 700;
+  color: var(--primary);
+  margin-right: 0.5rem;
+}
+
+.faq-toggle-icon {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  transition: transform var(--transition-normal);
+}
+
+details[open] summary.faq-question .faq-toggle-icon {
+  transform: rotate(180deg);
+  color: var(--primary);
+}
+
+.faq-answer {
+  padding: 1rem 1.25rem 1.25rem;
+  border-top: 1px solid var(--border-color);
+  background: var(--bg-sub);
+}
+
+.faq-answer p {
+  color: var(--text-main);
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+/* Minimal Footer */
+.site-footer {
+  background: var(--bg-main);
+  border-top: 1px solid var(--border-color);
+  padding: 3rem 1.5rem 2.5rem;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  transition: color var(--transition-fast);
+}
+
+.footer-nav a:hover {
+  color: var(--primary);
+}
+
+.copyright {
+  color: var(--text-light);
+  font-size: 0.8rem;
+}
+
+/* Responsive Overrides */
+@media (max-width: 640px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-strong);
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .nav-links.show {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero-app-header {
+    align-items: flex-start;
+  }
+
+  .hero-app-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .hero-app-name {
+    font-size: 1.85rem;
+  }
+
+  .hero-app-catch {
+    font-size: 1.05rem;
+  }
+
+  .footer-container {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    justify-content: center;
+  }
+
+  main.brand-home {
+    padding: 2.6rem 1.25rem 0;
+  }
+
+  .brand-intro {
+    padding-bottom: 2.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .brand-title {
+    font-size: 1.85rem;
+  }
+
+  .brand-lead {
+    font-size: 0.95rem;
+  }
+
+  .brand-header .header-container {
+    padding: 0.75rem 1.25rem;
+  }
+
+  .product-item {
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+
+  .product-link-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .product-description {
+    overflow-wrap: anywhere;
+  }
+
+  .brand-footer {
+    margin-top: 2.5rem;
+    padding: 1.35rem 1.25rem 1.75rem;
+  }
+
+  .brand-footer .footer-container {
+    align-items: flex-start;
+    text-align: left;
+  }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート (Q&amp;A) | おもいつきのつづき</title>
+  <meta name="description" content="学習アプリ「ひらくたび」の使い方、問題ファイルの読み込み方法、よくある質問（Q&A）とサポート情報です。">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Google Fonts: Zen Kaku Gothic New -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../" class="site-brand">おもいつきのつづき</a>
+
+      <button class="mobile-menu-btn" aria-label="メニューを開く">&#9776;</button>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">ひらくたび紹介</a></li>
+          <li><a href="materials.html">問題セット</a></li>
+          <li><a href="support.html" class="active">サポート (Q&amp;A)</a></li>
+          <li><a href="privacy.html">プライバシー</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="main-content">
+    
+    <div class="page-header">
+      <h1 class="page-title">サポート &amp; FAQ</h1>
+      <p class="page-subtitle">Androidアプリ「ひらくたび」のご利用方法や問題セットの取り込みについてお答えします。</p>
+    </div>
+
+    <!-- ミニマル FAQ アコーディオン -->
+    <div class="faq-list">
+
+      <details class="faq-item" open>
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>「ひらくたび」アプリに問題セットを取り込む手順は？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            1. 当サイトの「<a href="materials.html" style="color: var(--primary);">問題セット</a>」ページから、解きたい教材の「ダウンロード」を押して問題ファイルを保存します。<br>
+            2. Androidアプリ「ひらくたび」を開き、インポート（追加）メニューを選択します。<br>
+            3. 保存した問題ファイルを選択すると自動的に追加されて学習を開始できます。
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>配布されている問題セットのコンテンツ内容は保証されていますか？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            当サイトで配布している問題セットは、主にアプリ「ひらくたび」の動作確認や試用を目的として提供しているサンプル用データです。<br>
+            出題内容や解答の正当性・正確性について当方は保証いたしかねますので、あらかじめご了承の上ご利用ください。
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>自作のオリジナル問題セットを作成できますか？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            はい、可能です。Excelやメモ帳・テキストエディタを使って、規定のTSVフォーマット（タブ区切りテキスト、UTF-8文字コード）で作成したファイルを「ひらくたび」アプリに読み込ませて学習できます。
+          </p>
+        </div>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>生成AIを使って問題セットを作れますか？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            はい。手元の教科書・資料・PDFなどをもとに作る場合は <strong>Gemini Notebook（旧 NotebookLM）</strong>、テーマを指定して一から作る場合は <strong>ChatGPT・Geminiなど</strong> が使いやすいです。<br>
+            以下のプロンプトをコピーし、テーマや対象レベルを必要に応じて書き換えてください。
+          </p>
+
+          <div class="prompt-guide">
+            <details class="prompt-example">
+              <summary>資料から作る：Gemini Notebook（旧 NotebookLM）用</summary>
+              <pre class="prompt-code">読み込んだ資料だけをもとに、学習用の4択問題を作成してください。
+
+最終目標は200問です。まず第1問〜第50問を出力し、私が「続きをお願いします」と言ったら50問ずつ続けてください。
+
+【問題作成ルール】
+- 資料に書かれている内容だけから出題する
+- 「図1」「表2」など、元資料がないと分からない表現は使わず、問題単体で解ける内容にする
+- 用語、説明、具体例、理由、応用、誤りを選ぶ問題をバランスよく混ぜる
+- 正解が1つに決まる4択にする
+- 同じ内容の言い換え問題を繰り返さない
+
+【TSV形式】
+出力はTSVコードブロックだけにしてください。初回のみ先頭に次を付けてください。
+
+set_id=任意の半角英数字ID_v1
+title=問題セット名
+version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+
+各問題はタブ区切りの9列固定です。
+- id：q_001から連番
+- prompt：問題文
+- keyword：学習語句・要点
+- explanation：簡潔な解説
+- correct_index：A=0、B=1、C=2、D=3
+- choice_a〜choice_d：4つの選択肢
+
+セル内改行は \n を使ってください。
+200問すべて完成したら、全200問をまとめたUTF-8のTSVファイルとして出力してください。</pre>
+            </details>
+
+            <details class="prompt-example">
+              <summary>テーマから作る：ChatGPT・Geminiなど用</summary>
+              <pre class="prompt-code">あなたは教材クリエイターです。
+
+次のテーマ・対象レベルに合わせて、一般的で正確な知識から学習用の4択問題を作成してください。
+
+【テーマ】〇〇
+【対象】〇〇
+
+最終目標は200問です。まず第1問〜第50問を出力し、私が「続きをお願いします」と言ったら50問ずつ続けてください。
+
+【問題作成ルール】
+- 対象レベルで一般的・標準的な内容から出題する
+- 正解が1つに決まる問題だけにする
+- 用語、説明、具体例、理由、応用、誤りを選ぶ問題をバランスよく混ぜる
+- 同じ内容の言い換え問題を繰り返さない
+- 問題単体で解ける内容にする
+- 正解位置が偏らないようにする
+
+【TSV形式】
+出力はTSVコードブロックだけにしてください。初回のみ先頭に次を付けてください。
+
+set_id=任意の半角英数字ID_v1
+title=問題セット名
+version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+
+各問題はタブ区切りの9列固定です。
+- id：q_001から連番
+- prompt：問題文
+- keyword：学習語句・要点
+- explanation：簡潔な解説
+- correct_index：A=0、B=1、C=2、D=3
+- choice_a〜choice_d：4つの選択肢
+
+セル内改行は \n を使ってください。
+200問すべて完成したら、全200問をまとめたUTF-8のTSVファイルとして出力してください。</pre>
+            </details>
+          </div>
+
+          <p class="prompt-note">
+            ※生成AIが作成した問題には誤りや曖昧な表現が含まれることがあります。アプリへ取り込む前に、問題文・選択肢・正解・解説をご自身で確認してください。
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>ファイルが開けない・文字化けする場合は？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            問題ファイルを直接PCテキストエディタ等で開く際の文字コードが「UTF-8」になっているかご確認ください。Shift-JISなどの異なる文字コードで開くと文字化けの原因となります。アプリへ取り込む場合は、ダウンロードしたファイルを編集せずにそのまま読み込んでください。
+          </p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span><span class="faq-q-tag">Q.</span>不具合の報告や連絡はどこから行えばいいですか？</span>
+          <span class="faq-toggle-icon">&#9660;</span>
+        </summary>
+        <div class="faq-answer">
+          <p>
+            アプリの動作不具合や表記のエラーなどは、公式リポジトリの Issue またはメールアドレス（<a href="mailto:015flags@gmail.com" style="color: var(--primary);">015flags@gmail.com</a>）までご連絡ください。<br>
+            ※なお、新しい問題セット・教材の追加リクエスト等は受け付けておりませんのでご了承ください。
+          </p>
+        </div>
+      </details>
+
+    </div>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <ul class="footer-nav">
+        <li><a href="index.html">ひらくたび紹介</a></li>
+        <li><a href="materials.html">問題セット</a></li>
+        <li><a href="support.html">サポート (Q&amp;A)</a></li>
+        <li><a href="privacy.html">プライバシーポリシー</a></li>
+      </ul>
+      <p class="copyright">&copy; おもいつきのつづき</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

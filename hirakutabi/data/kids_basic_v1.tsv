@@ -1,0 +1,204 @@
+# set_id=[kids_basic_v1]
+# title=[子ども向け・基礎英語]
+# version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+go_to_school	I ___ to school by bus every day.	go to school	goは「行く」です。Iのあとではgoを使います。	0	go	goes	went	going
+likes_soccer	Ken ___ soccer after school.	likes	主語がKenのような1人の名前なら、現在形の動詞にsをつけてlikesにします。	2	like	liked	likes	liking
+have_a_dog	We ___ a small dog at home.	have	Weのあとでは「持っている」のhaveを使います。	1	has	have	had	having
+has_a_bike	My sister ___ a new bike.	has	My sisterは1人なので、haveではなくhasを使います。	2	have	had	has	having
+eat_breakfast	I ___ breakfast at seven every morning.	eat breakfast	毎朝の習慣なので現在形eatを使います。	2	eats	ate	eat	eating
+drinks_milk	Tom ___ milk with lunch.	drinks	Tomは1人なので、現在形のdrinkにsをつけてdrinksにします。	0	drinks	drink	drank	drinking
+read_books	They ___ books in the library.	read books	Theyのあとでは現在形のreadをそのまま使います。	3	reads	reading	reader	read
+writes_letters	My grandmother ___ letters to me.	writes	My grandmotherは1人なのでwriteにsをつけます。	3	write	wrote	writing	writes
+play_the_piano	Mika can ___ the piano very well.	can play	canのあとの動詞は原形なのでplayを使います。	3	plays	played	playing	play
+swim_fast	He can ___ very fast.	can swim	canのあとは動詞の原形swimです。	0	swim	swims	swam	swimming
+beautiful_flower	This is a ___ flower.	beautiful	beautifulは「美しい」という意味で、flowerを説明します。	1	hungry	beautiful	slowly	tomorrow
+hungry_before_dinner	I am ___ before dinner.	hungry	hungryは「おなかがすいた」という意味です。	3	busy	kind	tall	hungry
+kind_teacher	Our English teacher is very ___.	kind	kindは「親切な」という意味です。	3	early	cold	long	kind
+large_room	We need a ___ room for twenty people.	large	largeは「大きい」という意味で、20人入る部屋に合います。	1	short	large	weak	thin
+young_brother	My ___ brother is ten years old.	younger brother	youngerは「年下の」という意味です。	0	younger	older	longer	higher
+favorite_subject	Math is my favorite ___.	school subject	mathは学校の「教科」なのでsubjectが正解です。	2	season	animal	subject	country
+summer_season	July is in the ___ season.	summer	7月は夏なのでsummerが正解です。	2	winter	spring	summer	autumn
+kitchen_room	My mother is cooking in the ___.	kitchen	料理をする部屋はkitchenです。	1	bedroom	kitchen	garden	library
+library_books	We can borrow books from the ___.	library	本を借りる場所はlibraryです。	3	hospital	station	restaurant	library
+hospital_doctor	A doctor works at a ___.	hospital	医者が働く場所はhospitalです。	3	museum	bakery	farm	hospital
+station_train	We waited for the train at the ___.	station	電車を待つ場所はstationです。	3	park	office	pool	station
+restaurant_dinner	We had dinner at a nice ___.	restaurant	食事をする店はrestaurantです。	1	school	restaurant	factory	bridge
+weekend_saturday	Saturday and Sunday are the ___.	weekend	SaturdayとSundayを合わせてweekendといいます。	0	weekend	weekday	month	holiday
+morning_time	I get up at six in the ___.	morning	朝6時なのでmorningが合います。	1	afternoon	morning	evening	night
+afternoon_three	We have club activities at three in the ___.	afternoon	午後3時なのでafternoonが正解です。	0	afternoon	morning	night	midnight
+evening_dinner	We usually eat dinner in the ___.	evening	夕食を食べる時間なのでeveningが合います。	1	morning	evening	noon	weekend
+night_sleep	Most people sleep at ___.	at night	「夜に」はat nightといいます。	0	night	noon	week	spring
+weather_sunny	It is ___ today, so let us play outside.	sunny	外で遊ぶのに合う天気はsunny「晴れた」です。	1	rainy	sunny	snowy	cloudy
+weather_rainy	Take an umbrella. It is ___ outside.	rainy	かさが必要なのでrainy「雨の」が正解です。	2	sunny	windy	rainy	warm
+cold_winter	It is very ___ in winter.	cold	冬の気温を表すのでcold「寒い」が合います。	0	cold	hot	dry	bright
+hot_summer	August is usually ___ in Japan.	hot	日本の8月はふつう暑いのでhotが正解です。	2	cold	dark	hot	quiet
+happy_birthday	I was very ___ to get a birthday present.	happy	誕生日プレゼントをもらってうれしいのでhappyです。	3	angry	sleepy	afraid	happy
+tired_after_running	I was ___ after running five kilometers.	tired	5キロ走ったあとに感じるのはtired「疲れた」です。	2	famous	cheap	tired	clean
+busy_today	My father is very ___ at work today.	busy	仕事がたくさんある状態はbusy「忙しい」です。	1	empty	busy	sweet	safe
+easy_question	This question is very ___. I know the answer.	easy	答えが分かる簡単な問題なのでeasyです。	0	easy	difficult	heavy	dark
+difficult_homework	This homework is too ___ for me.	difficult	自分には難しすぎる宿題なのでdifficultが合います。	2	easy	quiet	difficult	clean
+cheap_pencil	This pencil is only fifty yen. It is ___.	cheap	50円で安いのでcheapが正解です。	2	expensive	strong	cheap	deep
+expensive_bag	That bag costs 30,000 yen. It is very ___.	expensive	値段が高いのでexpensiveが正解です。	0	expensive	cheap	small	light
+clean_room	Please keep your room ___.	clean	部屋をきれいな状態にするのでcleanです。	1	dirty	clean	busy	hungry
+dirty_shoes	Your shoes are ___. Please wash them.	dirty	洗う必要があるのでdirty「汚れた」が合います。	0	dirty	clean	new	quiet
+am_student	I ___ a junior high school student.	be verb am	主語がIのとき、be動詞はamです。	0	am	is	are	be
+is_my_friend	Yuki ___ my best friend.	be verb is	Yukiは1人なのでbe動詞はisです。	0	is	am	are	be
+are_students	We ___ students at this school.	be verb are	主語がWeのとき、be動詞はareです。	1	am	are	is	be
+was_at_home	I ___ at home yesterday.	be verb was	yesterdayがあるので過去形を使い、Iのbe動詞はwasです。	1	am	was	is	were
+were_in_park	They ___ in the park last Sunday.	be verb were	last Sundayがあるので過去形を使い、Theyにはwereです。	1	are	were	was	is
+do_you_like	___ you like music?	Do you ...?	一般動詞likeの疑問文で、主語がyouなのでDoを使います。	1	Does	Do	Are	Is
+does_he_play	___ he play tennis on Sundays?	Does he ...?	主語がheの一般動詞の疑問文なのでDoesを使います。	2	Do	Is	Does	Has
+did_you_go	___ you go to the zoo yesterday?	Did you ...?	yesterdayの過去の疑問文なのでDidを使います。	3	Do	Does	Are	Did
+dont_eat_meat	I am a vegetarian, so I ___ eat meat.	do not	今の習慣についてIを主語に否定するのでdo notを使います。	2	does not	am not	do not	did not
+doesnt_watch_tv	My brother usually reads in the morning, so he ___ watch TV then.	does not	今の習慣についてheを主語に否定するのでdoes notを使います。	2	do not	is not	does not	did not
+didnt_see_movie	We ___ see the movie last night.	did not	last nightの過去の否定文なのでdid notを使います。	0	did not	do not	does not	are not
+there_is_book	There ___ a book on the desk.	There is	a bookは1つなのでThere isを使います。	3	are	am	be	is
+there_are_cats	There ___ three cats in the garden.	There are	three catsは複数なのでThere areを使います。	3	is	am	was	are
+there_was_game	There ___ a soccer game yesterday.	There was	a soccer gameは1つで、yesterdayなのでwasです。	3	were	is	are	was
+there_were_people	There ___ many people at the festival.	There were	many peopleは複数で、過去のことなのでwereです。	2	was	is	were	are
+a_new_book	I bought ___ new book yesterday.	article a	new bookは1冊で、newは子音の音で始まるのでaを使います。	2	an	the	a	some
+an_old_apple	She ate ___ apple after lunch.	article an	appleは母音の音で始まる単数名詞なのでanを使います。	0	an	a	the	some
+the_sun	___ sun is very bright today.	the sun	太陽は1つのものとして表すのでthe sunといいます。	3	A	An	Some	The
+some_water	Please give me ___ water.	some＋不可算名詞	waterは数えられない名詞で、肯定文ではsomeが自然です。	0	some	a	an	many
+any_questions	Do you have ___ questions?	any＋複数名詞	疑問文で「何か質問」はany questionsといいます。	2	some	a	any	much
+many_books	There are ___ books in this room.	many＋複数名詞	booksは数えられる複数名詞なのでmanyを使います。	2	much	little	many	a
+much_time	We do not have ___ time.	much＋不可算名詞	timeはここでは数えられない名詞なのでmuchを使います。	0	much	many	a few	several
+a_few_friends	I have ___ friends in my class.	a few＋複数名詞	friendsは数えられる複数名詞なのでa fewを使います。	0	a few	a little	much	any
+a_little_milk	There is ___ milk in the glass.	a little＋不可算名詞	milkは数えられない名詞なのでa littleを使います。	0	a little	a few	many	several
+my_book	I bought this yesterday. This is ___ book.	my	話し手が買った本なのでmy「私の」を使います。	0	my	me	I	mine
+his_bag	The bag belongs to my brother. It is ___ bag.	his	my brotherの持ち物なのでhis「彼の」を使います。	3	him	he	her	his
+her_desk	This desk belongs to Emi. It is ___ desk.	her	Emiの持ち物なのでher「彼女の」を使います。	2	his	she	her	hers
+our_school	This is ___ school. We study here.	our	Weに対応する「私たちの」はourです。	0	our	us	we	ours
+their_house	The Browns live here. This is ___ house.	their	The Brownsは複数の家族なので「彼らの」はtheirです。	3	them	they	theirs	their
+mine_pronoun	This pen is not yours. It is ___.	mine	mineは「私のもの」という意味で、後ろに名詞を置きません。	3	my	me	I	mine
+hers_pronoun	That notebook belongs to Aya. It is ___.	hers	hersは「彼女のもの」という意味です。	0	hers	her	she	him
+them_object	I know those boys. I see ___ every day.	object pronoun them	those boysを受ける目的格はthemです。	2	they	their	them	theirs
+us_object	Our teacher helped ___ after class.	object pronoun us	Weの目的格はusです。「私たちを助けた」となります。	3	we	our	ours	us
+at_seven	School starts ___ eight o'clock.	at＋時刻	時刻の前にはatを使います。	2	on	in	at	from
+on_monday	We have music class ___ Monday.	on＋曜日	曜日の前にはonを使います。	2	at	in	on	by
+in_july	My birthday is ___ July.	in＋月	月の前にはinを使います。	3	on	at	to	in
+under_the_table	The cat is ___ the table.	under	テーブルの下にいるのでunderが正解です。	0	under	over	between	behind
+between_chairs	The bag is ___ the two chairs.	between	2つのいすの間なのでbetweenを使います。	0	between	among	under	through
+next_to_bank	The post office is next ___ the bank.	next to	next toは「～のとなりに」という意味です。	0	to	at	for	from
+across_from_school	The park is across ___ the school.	across from	across fromは「～の向かいに」という意味です。	3	to	at	in	from
+what_is_this	___ is this? It is a camera.	What is this?	物の名前をたずねるときはWhatを使います。	1	Who	What	When	Where
+who_is_she	___ is that girl? She is my cousin.	Who is ...?	人がだれかをたずねるときはWhoを使います。	0	Who	What	Where	How
+where_do_you_live	___ do you live? I live in Tokyo.	Where do you ...?	住んでいる場所をたずねるのでWhereです。	0	Where	When	Why	Which
+when_is_birthday	___ is your birthday? It is in May.	When is ...?	時をたずねるときはWhenを使います。	1	Where	When	Who	What
+why_are_you_late	___ are you late? Because I missed the bus.	Why ...?	理由をたずね、Becauseで答えているのでWhyです。	0	Why	How	When	Which
+how_are_you	___ are you today? I am fine.	How are you?	体調や様子をたずねる表現はHow are you?です。	3	What	Who	Where	How
+which_color	___ color do you like, blue or green?	Which ...?	blueかgreenか、選ぶものが決まっているのでWhichを使います。	1	What	Which	Who	When
+whose_bag	___ bag is this? It is mine.	Whose ...?	だれの物かをたずねるときはWhoseを使います。	0	Whose	Who	Which	What
+how_many_books	How ___ books do you have?	How many	数えられる名詞booksの数をたずねるのでHow manyです。	3	much	long	often	many
+how_much_money	How ___ money do you need?	How much	moneyは数えられない名詞なのでHow muchを使います。	1	many	much	old	far
+how_old_are_you	How ___ are you? I am twelve.	How old	年齢をたずねる表現はHow oldです。	3	long	many	often	old
+how_often_practice	How ___ do you practice the piano? Every day.	How often	回数や頻度をたずねるときはHow oftenを使います。	1	long	often	much	far
+open_the_window	Please ___ the window. It is hot here.	imperative open	暑いので窓を「開ける」openが合います。命令文では動詞の原形を使います。	2	opens	opened	open	opening
+dont_run	___ run in the hallway.	Do not＋動詞	「走ってはいけません」はDo not runといいます。	3	Does not	Not	No	Do not
+be_quiet	Please ___ quiet in the library.	Be＋形容詞	quietは形容詞なので、命令文ではBe quietとします。	1	is	be	are	do
+lets_play	___ play basketball after school.	Let us＋動詞	「～しましょう」はLet us＋動詞の原形で表します。	1	Let	Let us	Lets	Let us to
+am_reading_now	I ___ a book now.	present progressive	nowがあるので現在進行形am readingを使います。	0	am reading	read	reads	was reading
+is_cooking_now	My father ___ dinner now.	present progressive is	My fatherは1人で、nowの動作なのでis cookingです。	3	cooks	cook	was cooking	is cooking
+are_playing_now	The children ___ soccer now.	present progressive are	The childrenは複数で、今しているのでare playingです。	2	play	plays	are playing	is playing
+was_studying_then	I ___ English at eight last night.	past progressive was	昨夜8時にしていた途中の動作なのでwas studyingです。	0	was studying	study	am studying	studied
+were_watching_then	They ___ TV when I called them.	past progressive were	電話したときに見ている途中だったのでwere watchingです。	0	were watching	watched	are watching	was watching
+played_yesterday	We ___ tennis yesterday.	past tense played	yesterdayがあるのでplayの過去形playedを使います。	1	play	played	plays	playing
+went_last_week	I ___ to Kyoto last week.	past tense went	last weekの過去のことなのでgoの過去形wentです。	1	go	went	goes	gone
+saw_movie	She ___ a movie last night.	past tense saw	last nightの過去なのでseeの過去形sawです。	0	saw	see	sees	seen
+ate_lunch	They ___ lunch at noon yesterday.	past tense ate	yesterdayの食事の話なのでeatの過去形ateです。	3	eat	eats	eaten	ate
+made_cake	My mother ___ a cake for my birthday last week.	past tense made	last weekのことなのでmakeの過去形madeです。	3	make	makes	making	made
+will_visit	We ___ our grandparents next Sunday.	will＋動詞	next Sundayの未来の予定なのでwill visitを使います。	1	visited	will visit	visit yesterday	visiting last week
+be_going_to_study	I am going to ___ tonight.	be going to＋動詞	be going toのあとは動詞の原形なのでstudyです。	2	studies	studied	study	studying
+will_be_sunny	It ___ sunny tomorrow.	will be	tomorrowの未来の天気なのでwill beを使います。	0	will be	is yesterday	was tomorrow	being
+can_speak_english	Aya can ___ English well.	can＋動詞	canのあとは動詞の原形speakです。	3	speaks	spoke	speaking	speak
+must_do_homework	You must ___ your homework before dinner.	must＋動詞	mustのあとは動詞の原形doです。	2	does	did	do	doing
+should_go_bed	You should ___ to bed early.	should＋動詞	shouldのあとは動詞の原形goです。	3	goes	went	going	go
+may_rain	It may ___ this afternoon.	may＋動詞	mayのあとは動詞の原形rainです。	3	rains	rained	raining	rain
+have_to_leave	I have to ___ home at seven.	have to＋動詞	have toのあとは動詞の原形leaveです。	1	leaves	leave	left	leaving
+must_not_touch	You must not ___ this button.	must not＋動詞	must notのあとは動詞の原形touchです。	0	touch	touches	touched	touching
+could_swim	My father could ___ when he was five.	could＋動詞	couldのあとは動詞の原形swimです。	2	swims	swam	swim	swimming
+would_like_tea	I would like ___ tea, please.	would like＋名詞	teaは数えられない名詞なのでsome teaが自然です。	1	a	some	many	few
+shall_we_dance	___ we dance?	Shall we ...?	「～しましょうか」はShall we＋動詞で表します。	3	Will	Do	Are	Shall
+can_i_use	___ I use your pen?	Can I ...?	許可を求める「～してもいいですか」はCan Iで表せます。	2	Must	Should	Can	Did
+please_help_me	Could you ___ me, please?	Could you＋動詞	Could youのあとは動詞の原形helpです。	1	helps	help	helped	helping
+want_to_be	I want to ___ a teacher.	want to＋動詞	want toのあとは動詞の原形beです。	0	be	am	is	being
+like_to_read	I like to ___ books before bed.	like to＋動詞	like toのあとは動詞の原形readです。	1	reads	read	reading	reader
+need_to_buy	We need to ___ some eggs.	need to＋動詞	need toのあとは動詞の原形buyです。	1	buys	buy	bought	buying
+hope_to_see	I hope to ___ you again soon.	hope to＋動詞	hope toのあとは動詞の原形seeです。	3	sees	saw	seeing	see
+enjoy_playing	She enjoys ___ tennis.	enjoy＋動名詞	enjoyのあとは動名詞playingを使います。	2	play	to play	playing	played
+finish_doing	Please finish ___ your homework.	finish＋動名詞	finishのあとは動名詞doingを使います。	3	do	to do	did	doing
+good_at_cooking	My brother is good at ___.	be good at＋動名詞	atは前置詞なので、動詞はcookingの形にします。	2	cook	to cook	cooking	cooked
+interested_in_space	I am interested ___ space.	be interested in	「～に興味がある」はbe interested inです。	3	at	on	for	in
+listen_to_music	I often listen ___ music.	listen to	listenはtoといっしょに使い、「～を聞く」となります。	3	at	for	with	to
+look_at_picture	Please look ___ this picture.	look at	「～を見る」はlook atです。	1	to	at	on	from
+wait_for_bus	We waited ___ the bus for ten minutes.	wait for	「～を待つ」はwait forです。	3	to	at	by	for
+talk_with_friend	I talked ___ my friend after school.	talk with	「友だちと話す」はtalk with my friendといえます。	3	from	of	by	with
+arrive_at_station	We arrived ___ the station at nine.	arrive at	駅のような場所に着くときはarrive atを使います。	3	in	to	for	at
+come_from_japan	I come ___ Japan.	come from	出身を表す「～から来ました」はcome fromです。	1	to	from	at	on
+belong_to_me	This notebook belongs ___ me.	belong to	「～のものである」はbelong toです。	1	for	to	with	from
+taller_than	Ken is taller ___ Taro.	comparative than	2人を比べるとき、比較級のあとにthanを使います。	2	then	from	than	as
+bigger_than	This box is ___ than that one.	comparative bigger	bigの比較級はgを重ねてbiggerです。	1	big	bigger	biggest	more big
+more_beautiful	This flower is ___ beautiful than that one.	more＋形容詞	beautifulの比較級はmore beautifulです。	3	most	very	much	more
+the_tallest	Mt. Fuji is the ___ mountain in Japan.	superlative tallest	3つ以上の中で「最も高い」はthe tallestです。	0	tallest	taller	tall	more tall
+the_most_popular	This is the ___ popular song in our class.	the most＋形容詞	3つ以上の中で「最も人気がある」はthe most popularです。	2	more	much	most	very
+as_fast_as	Ken can run as fast ___ his brother.	as ... as	「～と同じくらい…」はas ... asの形です。	1	than	as	like	from
+not_as_old_as	This building is not as old ___ that one.	not as ... as	「～ほど…ではない」はnot as ... asです。	3	than	from	like	as
+and_connector	I bought bread ___ milk.	and	breadとmilkを並べるのでandを使います。	3	but	or	because	and
+but_connector	I like dogs, ___ I do not like cats.	but	前と後ろの内容が反対なのでbutを使います。	2	and	so	but	because
+or_connector	Would you like tea ___ juice?	or	どちらかを選ぶ質問なのでorを使います。	0	or	and	but	so
+because_reason	I stayed home ___ it was raining.	because	家にいた理由を説明しているのでbecauseを使います。	3	but	or	until	because
+so_result	It was cold, ___ I closed the window.	so	寒かった結果、窓を閉めたのでsoを使います。	0	so	because	but	if
+when_i_was_ten	I lived in Osaka ___ I was ten.	when	「10歳のとき」はwhen I was tenと表します。	3	where	which	who	when
+before_dinner	Wash your hands ___ dinner.	before	夕食より前に手を洗うのでbeforeです。	2	after	during	before	since
+after_school	We play soccer ___ school.	after	学校が終わったあとに遊ぶのでafterです。	1	before	after	until	from
+if_sunny	If it is sunny, we ___ go to the park.	if＋現在形	if節が現在形で、主節は未来のwill goになります。	1	did	will	are	were
+when_you_arrive	Please call me when you ___.	when＋現在形	未来のことでも、whenの節では現在形arriveを使います。	3	will arrive	arrived	are arriving yesterday	arrive
+too_heavy	This bag is too ___ for me to carry.	too＋形容詞	持てないほど重いのでtoo heavyです。	1	heavily	heavy	heavier	heaviest
+old_enough	My brother is old enough to ___ alone.	enough to＋動詞	toのあとは動詞の原形travelです。	0	travel	travels	traveled	traveling
+something_to_eat	I want something to ___.	something to＋動詞	「何か食べるもの」はsomething to eatです。	0	eat	eats	ate	eating
+time_to_go	It is time to ___ home.	It is time to ...	toのあとは動詞の原形goです。	0	go	goes	went	going
+how_to_use	Can you show me how to ___ this camera?	how to＋動詞	how toのあとは動詞の原形useです。	1	uses	use	used	using
+which_to_choose	I do not know which one to ___.	which to＋動詞	toのあとは動詞の原形chooseです。	0	choose	chooses	chose	choosing
+want_you_to_help	I want you to ___ me.	want 人 to＋動詞	want you toのあとは動詞の原形helpです。	2	helps	helped	help	helping
+tell_me_to_wait	My teacher told me to ___ here.	tell 人 to＋動詞	told me toのあとは動詞の原形waitです。	2	waits	waited	wait	waiting
+get_up_early	I usually ___ up at six on school days.	get up	「起きる」はget upです。Iの習慣なのでgetを使います。	2	gets	got	get	getting
+go_shopping	My family will go ___ this Sunday.	go shopping	「買い物に行く」はgo shoppingです。	2	shop	shopped	shopping	shops
+practice_baseball	We ___ baseball after school every Tuesday.	practice baseball	毎週火曜日の習慣なので現在形practiceを使います。	2	practices	practiced	practice	practicing
+visit_museum	Our class will ___ the science museum tomorrow.	visit＋場所	willのあとは動詞の原形visitです。visitの直後に場所を置きます。	1	visits	visit	visited	visiting
+borrow_a_book	May I ___ this book?	borrow	borrowは「借りる」です。May Iのあとは動詞の原形を使います。	2	lend	return	borrow	bring
+lend_me_pencil	Can you ___ me your pencil?	lend 人 物	lendは「人に物を貸す」です。ここでは私に鉛筆を貸す意味です。	1	borrow	lend	keep	show
+return_library_book	Please ___ this book to the library by Friday.	return	returnは「返す」です。図書館へ本を返す文に合います。	2	borrow	buy	return	open
+always_on_time	Miki is ___ on time for school. She is never late.	always	never lateとあるので「いつも」のalwaysが合います。	0	always	sometimes	rarely	never
+usually_walks	I ___ walk to school, but sometimes I take the bus.	usually	ふだんは歩き、ときどきバスなのでusually「たいてい」が合います。	0	usually	never	once	tomorrow
+sometimes_cook	We ___ cook dinner together on weekends.	sometimes	毎回ではなく時々することを表すのでsometimesが合います。	1	yesterday	sometimes	soon	outside
+monday_after_sunday	The day after Sunday is ___.	Monday	Sundayの次の日はMondayです。	1	Tuesday	Monday	Friday	Saturday
+december_month	Christmas is in ___.	December	クリスマスは12月なのでDecemberです。	2	August	October	December	February
+uncle_family	My father's brother is my ___.	uncle	父の兄弟はuncle「おじ」です。	1	cousin	uncle	nephew	grandson
+cousin_family	My aunt's daughter is my ___.	cousin	おばの娘はcousin「いとこ」です。	1	sister	cousin	mother	grandmother
+baker_job	A ___ makes bread and cakes.	baker	パンやケーキを作る仕事の人はbakerです。	1	farmer	baker	driver	singer
+farmer_job	A ___ grows vegetables and raises animals.	farmer	野菜を育てたり動物を飼ったりする仕事の人はfarmerです。	1	doctor	farmer	pilot	waiter
+nice_to_meet_you	Nice to ___ you.	Nice to meet you	初対面のあいさつはNice to meet youです。	1	see	meet	look	watch
+how_about_you	I like science. How ___ you?	How about ...?	相手について聞き返す「あなたはどうですか」はHow about you?です。	2	for	with	about	from
+what_time_is_it	What ___ is it now?	What time is it?	時刻をたずねる表現はWhat time is it?です。	0	time	hour	clock	day
+excuse_me	___ me, where is the station?	Excuse me	人に声をかけるときはExcuse meを使います。	1	Sorry	Excuse	Thank	Welcome
+you_are_welcome	Thank you very much. — You are ___.	You are welcome	お礼に対して「どういたしまして」はYou are welcomeです。	2	fine	sorry	welcome	kind
+im_sorry	I broke your pencil. I am ___.	I am sorry	あやまるときはI am sorryと言います。	2	glad	ready	sorry	right
+thats_all_right	I am sorry I am late. — That is all ___.	That is all right	あやまられたときの「大丈夫です」はThat is all rightです。	3	well	good	fine	right
+here_you_are	May I use your ruler? — Sure. Here you ___.	Here you are	物を手渡すときはHere you areと言います。	2	is	do	are	have
+sounds_good	Let us study together after school. — That ___ good.	That sounds good	提案に賛成する「よさそうです」はThat sounds goodです。	1	looks	sounds	hears	speaks
+have_a_good_day	Have a good ___.	Have a good day	別れのあいさつ「よい一日を」はHave a good dayです。	2	time	weather	day	season
+take_care	See you next week. Take ___.	Take care	別れのあいさつのTake careは「元気でね」という意味です。	3	time	place	part	care
+of_course	Can you help me? — Of ___.	Of course	快く「もちろん」と答える表現はOf courseです。	0	course	sure	right	way
+never_mind	I am sorry I forgot your book. — Never ___.	Never mind	「気にしないで」はNever mindです。	3	care	worry	think	mind
+good_luck	I have a test tomorrow. — Good ___!	Good luck	試験などの前に「がんばって」はGood luckです。	2	chance	hope	luck	wish
+take_a_picture	Can you take a ___ of us?	take a picture	「写真を撮る」はtake a pictureです。	2	story	letter	picture	sound
+make_breakfast	My father often ___ breakfast on Sundays.	make breakfast	朝食を作るのでmakeが合い、fatherは1人なのでmakesです。	2	does	takes	makes	uses
+ride_a_bicycle	I can ___ a bicycle.	ride a bicycle	自転車に乗るはride a bicycleです。	3	drive	walk	carry	ride
+wear_a_hat	It is sunny, so please ___ a hat.	wear a hat	帽子を身につけるのでwearを使います。	0	wear	put	dress	use
+catch_the_bus	Hurry up, or we will miss the ___.	miss the bus	急がないと乗り物に乗り遅れる文なのでbusが自然です。	0	bus	road	ticket	chair
+brush_teeth	I brush my ___ after breakfast.	brush one’s teeth	歯みがきをするのでteethが正解です。	2	hands	hair	teeth	face
+wash_hands	Please wash your ___ before lunch.	wash one’s hands	昼食前に洗うものはhandsです。	1	eyes	hands	ears	knees
+do_the_dishes	After dinner, I help my mother do the ___.	do the dishes	食後の皿洗いはdo the dishesといいます。	0	dishes	rooms	clothes	windows
+take_out_trash	Please take out the ___.	take out the trash	ごみを外に出すことはtake out the trashです。	3	homework	weather	music	trash
+feed_the_dog	I ___ the dog every morning.	feed the dog	犬にえさをあげるのでfeedが合います。	3	grow	carry	catch	feed
