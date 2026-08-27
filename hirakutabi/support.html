@@ -67,7 +67,30 @@
       }
     }
   </style>
+<script>
+  function openFaqFromHash() {
+    const hash = window.location.hash;
+    if (!hash) return;
 
+    const target = document.querySelector(hash);
+    if (!target) return;
+
+    if (target.tagName.toLowerCase() === 'details') {
+      target.open = true;
+    } else {
+      const parentDetails = target.closest('details');
+      if (parentDetails) parentDetails.open = true;
+    }
+
+    target.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+
+  window.addEventListener('DOMContentLoaded', openFaqFromHash);
+  window.addEventListener('hashchange', openFaqFromHash);
+</script>
 </head>
 <body>
 
@@ -108,8 +131,9 @@
         <div class="faq-answer">
           <p>
             1. 当サイトの「<a href="materials.html" style="color: var(--primary);">問題セット</a>」ページから、解きたい教材の「ダウンロード」を押して問題ファイルを保存します。<br>
-            2. Androidアプリ「ひらくたび」を開き、インポート（追加）メニューを選択します。<br>
-            3. 保存した問題ファイルを選択すると自動的に追加されて学習を開始できます。
+            2. Androidアプリ「ひらくたび」を開き、設定から「問題セットを追加・更新」を選択します。<br>
+            3. 保存した問題ファイルを選択すると自動的に問題が読み込まれます。<br>
+            4. 設定から「問題セットを変更」を選び、読み込んだ教材を選択すると学習を開始できます。
           </p>
         </div>
       </details>
@@ -134,11 +158,11 @@
         </summary>
         <div class="faq-answer">
           <p>
-            はい、可能です。Excelやメモ帳・テキストエディタを使って、規定のTSVフォーマット（タブ区切りテキスト、UTF-8文字コード）で作成したファイルを「ひらくたび」アプリに読み込ませて学習できます。
+            はい、可能です。Excelやメモ帳・テキストエディタを使って、規定のTSVフォーマット（タブ区切りテキスト、UTF-8文字コード）で作成したファイルを「ひらくたび」アプリに読み込ませて学習できます。詳しくは<a href="support.html#how-to-create" style="color: var(--text-link); text-decoration: underline;">生成AIを使って問題セットを作れますか？</a>をご覧ください。
           </p>
         </div>
       </details>
-            <details class="faq-item">
+            <details class="faq-item" id="how-to-create">
         <summary class="faq-question">
           <span><span class="faq-q-tag">Q.</span>生成AIを使って問題セットを作れますか？</span>
           <span class="faq-toggle-icon">&#9660;</span>
@@ -146,7 +170,7 @@
         <div class="faq-answer">
           <p>
             はい。スマートフォンでも作りやすいよう、<strong>1セット50問</strong>をおすすめしています。<br>
-            手元の教科書・資料・PDFなどをもとに作る場合は <strong>Gemini Notebook（旧 NotebookLM）</strong>、
+            手元の資料・PDFなどをもとに作る場合は <strong>Gemini Notebook（旧 NotebookLM）</strong>、
             テーマを指定して一から作る場合は <strong>ChatGPT・Geminiなど</strong> が使いやすいです。
           </p>
 
@@ -154,7 +178,7 @@
             <li>下の「プロンプトをコピー」を押します。</li>
             <li>ChatGPT・Geminiなどに貼り付け、テーマや対象を書き換えます。</li>
             <li>50問を作成させ、可能なら <strong>UTF-8のTSVファイル</strong>として保存します。</li>
-            <li>保存したTSVファイルを「ひらくたび」から読み込みます。</li>
+            <li>保存したTSVファイルを「ひらくたび」から読み込みます。（「開く」から開ける場合があります）</li>
           </ol>
 
           <div class="prompt-guide">
@@ -275,7 +299,7 @@ UTF-8のTSVファイルとして出力してください。
         </summary>
         <div class="faq-answer">
           <p>
-            アプリの動作不具合や表記のエラーなどはメール（<a href="mailto:support@omotsuzu.com" style="color: var(--primary);">015flags@gmail.com</a>）でご連絡ください。<br>
+            アプリの動作不具合や表記のエラーなどはメール（<a href="mailto:support@omotsuzu.com" style="color: var(--primary);">support@omotsuzu.com</a>）でご連絡ください。<br>
             ※なお、新しい問題セット・教材の追加リクエスト等は受け付けておりませんのでご了承ください。
           </p>
         </div>
