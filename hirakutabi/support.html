@@ -189,7 +189,8 @@ id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 - explanation：簡潔な解説
 - correct_index：A=0、B=1、C=2、D=3
 - choice_a〜choice_d：4つの選択肢
-- セル内改行が必要な場合は \n を使う
+- 1問につき必ず1物理行で出力してください。セル内に実際の改行を入れないでください。問題文の中で改行したい場合は、実改行ではなく文字列 \n を使用してください。
+- 例えば日本語の指示文と英文を同じ prompt セルに入れる場合も、行を分けず、次の文の空所に入る最も適切なものを選びなさい。\nShe ______ to London three years ago. のように出力してください。
 
 作成後は、可能であれば回答本文に長いTSV全文を表示するのではなく、
 UTF-8のTSVファイルとして出力してください。
@@ -234,7 +235,8 @@ id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 - explanation：簡潔な解説
 - correct_index：A=0、B=1、C=2、D=3
 - choice_a〜choice_d：4つの選択肢
-- セル内改行が必要な場合は \n を使う
+- 1問につき必ず1物理行で出力してください。セル内に実際の改行を入れないでください。問題文の中で改行したい場合は、実改行ではなく文字列 \n を使用してください。
+- 例えば日本語の指示文と英文を同じ prompt セルに入れる場合も、行を分けず、次の文の空所に入る最も適切なものを選びなさい。\nShe ______ to London three years ago. のように出力してください。
 
 作成後は、可能であれば回答本文に長いTSV全文を表示するのではなく、
 UTF-8のTSVファイルとして出力してください。
