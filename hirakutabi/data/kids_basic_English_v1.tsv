@@ -1,5 +1,5 @@
-# set_id=[kids_basic_v1]
-# title=[子ども向け・基礎英語]
+# set_id=kids_basic_English_v1
+# title=子ども向け・基礎英語
 # version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 go_to_school	I ___ to school by bus every day.	go to school	goは「行く」です。Iのあとではgoを使います。	0	go	goes	went	going

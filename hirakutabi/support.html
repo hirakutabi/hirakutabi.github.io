@@ -17,6 +17,57 @@
   <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .prompt-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 0.9rem 0 0.75rem;
+    }
+    .prompt-copy-btn {
+      appearance: none;
+      border: 0;
+      border-radius: 999px;
+      padding: 0.7rem 1rem;
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--primary);
+      color: #fff;
+    }
+    .prompt-copy-btn:focus-visible {
+      outline: 3px solid currentColor;
+      outline-offset: 3px;
+    }
+    .prompt-copy-status {
+      min-height: 1.5em;
+      margin: 0.25rem 0 0;
+      font-size: 0.92em;
+    }
+    .prompt-steps {
+      margin: 0.75rem 0 1rem 1.2rem;
+      padding: 0;
+    }
+    .prompt-steps li {
+      margin: 0.35rem 0;
+    }
+    .prompt-fallback {
+      margin-top: 0.8rem;
+      font-size: 0.95em;
+    }
+    @media (max-width: 640px) {
+      .prompt-copy-btn {
+        width: 100%;
+      }
+      .prompt-code {
+        font-size: 0.82rem;
+        line-height: 1.55;
+        overflow-x: auto;
+      }
+    }
+  </style>
+
 </head>
 <body>
 
@@ -87,23 +138,33 @@
           </p>
         </div>
       </details>
-      <details class="faq-item">
+            <details class="faq-item">
         <summary class="faq-question">
           <span><span class="faq-q-tag">Q.</span>生成AIを使って問題セットを作れますか？</span>
           <span class="faq-toggle-icon">&#9660;</span>
         </summary>
         <div class="faq-answer">
           <p>
-            はい。手元の教科書・資料・PDFなどをもとに作る場合は <strong>Gemini Notebook（旧 NotebookLM）</strong>、テーマを指定して一から作る場合は <strong>ChatGPT・Geminiなど</strong> が使いやすいです。<br>
-            以下のプロンプトをコピーし、テーマや対象レベルを必要に応じて書き換えてください。
+            はい。スマートフォンでも作りやすいよう、<strong>1セット50問</strong>をおすすめしています。<br>
+            手元の教科書・資料・PDFなどをもとに作る場合は <strong>Gemini Notebook（旧 NotebookLM）</strong>、
+            テーマを指定して一から作る場合は <strong>ChatGPT・Geminiなど</strong> が使いやすいです。
           </p>
+
+          <ol class="prompt-steps">
+            <li>下の「プロンプトをコピー」を押します。</li>
+            <li>ChatGPT・Geminiなどに貼り付け、テーマや対象を書き換えます。</li>
+            <li>50問を作成させ、可能なら <strong>UTF-8のTSVファイル</strong>として保存します。</li>
+            <li>保存したTSVファイルを「ひらくたび」から読み込みます。</li>
+          </ol>
 
           <div class="prompt-guide">
             <details class="prompt-example">
               <summary>資料から作る：Gemini Notebook（旧 NotebookLM）用</summary>
-              <pre class="prompt-code">読み込んだ資料だけをもとに、学習用の4択問題を作成してください。
-
-最終目標は200問です。まず第1問〜第50問を出力し、私が「続きをお願いします」と言ったら50問ずつ続けてください。
+              <div class="prompt-actions">
+                <button type="button" class="prompt-copy-btn" data-copy-target="prompt-from-source">プロンプトをコピー</button>
+              </div>
+              <p class="prompt-copy-status" aria-live="polite"></p>
+              <pre class="prompt-code" id="prompt-from-source">読み込んだ資料だけをもとに、学習用の4択問題を50問作成してください。
 
 【問題作成ルール】
 - 資料に書かれている内容だけから出題する
@@ -111,37 +172,44 @@
 - 用語、説明、具体例、理由、応用、誤りを選ぶ問題をバランスよく混ぜる
 - 正解が1つに決まる4択にする
 - 同じ内容の言い換え問題を繰り返さない
+- 正解位置が偏らないようにする
 
 【TSV形式】
-出力はTSVコードブロックだけにしてください。初回のみ先頭に次を付けてください。
+次の形式で50問を作成してください。
 
-set_id=任意の半角英数字ID_v1
-title=問題セット名
-version=1
+# set_id=任意の半角英数字ID_v1
+# title=問題セット名
+# version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 
 各問題はタブ区切りの9列固定です。
-- id：q_001から連番
+- id：q_001からq_050まで連番
 - prompt：問題文
 - keyword：学習語句・要点
 - explanation：簡潔な解説
 - correct_index：A=0、B=1、C=2、D=3
 - choice_a〜choice_d：4つの選択肢
+- セル内改行が必要な場合は \n を使う
 
-セル内改行は \n を使ってください。
-200問すべて完成したら、全200問をまとめたUTF-8のTSVファイルとして出力してください。</pre>
+作成後は、可能であれば回答本文に長いTSV全文を表示するのではなく、
+UTF-8のTSVファイルとして出力してください。
+ファイル名は set_id と同じ名前にして、拡張子を .tsv にしてください。
+
+ファイルとして出力できない場合だけ、TSV全体を1つのコードブロックで出力してください。</pre>
             </details>
 
             <details class="prompt-example">
               <summary>テーマから作る：ChatGPT・Geminiなど用</summary>
-              <pre class="prompt-code">あなたは教材クリエイターです。
+              <div class="prompt-actions">
+                <button type="button" class="prompt-copy-btn" data-copy-target="prompt-from-theme">プロンプトをコピー</button>
+              </div>
+              <p class="prompt-copy-status" aria-live="polite"></p>
+              <pre class="prompt-code" id="prompt-from-theme">あなたは教材クリエイターです。
 
-次のテーマ・対象レベルに合わせて、一般的で正確な知識から学習用の4択問題を作成してください。
+次のテーマ・対象レベルに合わせて、一般的で正確な知識から学習用の4択問題を50問作成してください。
 
 【テーマ】〇〇
 【対象】〇〇
-
-最終目標は200問です。まず第1問〜第50問を出力し、私が「続きをお願いします」と言ったら50問ずつ続けてください。
 
 【問題作成ルール】
 - 対象レベルで一般的・標準的な内容から出題する
@@ -152,25 +220,33 @@ id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 - 正解位置が偏らないようにする
 
 【TSV形式】
-出力はTSVコードブロックだけにしてください。初回のみ先頭に次を付けてください。
+次の形式で50問を作成してください。
 
-set_id=任意の半角英数字ID_v1
-title=問題セット名
-version=1
+# set_id=任意の半角英数字ID_v1
+# title=問題セット名
+# version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 
 各問題はタブ区切りの9列固定です。
-- id：q_001から連番
+- id：q_001からq_050まで連番
 - prompt：問題文
 - keyword：学習語句・要点
 - explanation：簡潔な解説
 - correct_index：A=0、B=1、C=2、D=3
 - choice_a〜choice_d：4つの選択肢
+- セル内改行が必要な場合は \n を使う
 
-セル内改行は \n を使ってください。
-200問すべて完成したら、全200問をまとめたUTF-8のTSVファイルとして出力してください。</pre>
+作成後は、可能であれば回答本文に長いTSV全文を表示するのではなく、
+UTF-8のTSVファイルとして出力してください。
+ファイル名は set_id と同じ名前にして、拡張子を .tsv にしてください。
+
+ファイルとして出力できない場合だけ、TSV全体を1つのコードブロックで出力してください。</pre>
             </details>
           </div>
+
+          <p class="prompt-fallback">
+            AIがTSVファイルを直接作れない場合は、表示されたTSVコードブロックをコピーして保存する方法でも利用できます。
+          </p>
 
           <p class="prompt-note">
             ※生成AIが作成した問題には誤りや曖昧な表現が含まれることがあります。アプリへ取り込む前に、問題文・選択肢・正解・解説をご自身で確認してください。
@@ -219,6 +295,35 @@ id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
       <p class="copyright">&copy; おもいつきのつづき</p>
     </div>
   </footer>
+
+
+  <script>
+    document.querySelectorAll('.prompt-copy-btn').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const target = document.getElementById(button.dataset.copyTarget);
+        const status = button.parentElement.nextElementSibling;
+        if (!target) return;
+
+        try {
+          await navigator.clipboard.writeText(target.textContent);
+          button.textContent = 'コピーしました';
+          if (status) status.textContent = 'プロンプトをクリップボードにコピーしました。';
+
+          window.setTimeout(() => {
+            button.textContent = 'プロンプトをコピー';
+            if (status) status.textContent = '';
+          }, 2000);
+        } catch (error) {
+          const range = document.createRange();
+          range.selectNodeContents(target);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          if (status) status.textContent = '自動コピーできませんでした。選択したプロンプトをコピーしてください。';
+        }
+      });
+    });
+  </script>
 
   <script src="js/main.js"></script>
 </body>

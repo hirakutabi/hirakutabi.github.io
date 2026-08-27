@@ -1,6 +1,6 @@
-# set_id=[special_reading_compounds_v2]
-# title=[日常で出会う特殊な読み・熟字訓]
-# version=2
+# set_id=special_reading_compounds_v2
+# title=日常で出会う特殊な読み・熟字訓
+# version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 special_unique_reading_001	次の文中の「今朝」の読みとして正しいものはどれですか。\n今朝はいつもより早く目が覚めました。	今朝	「今朝」は「けさ」と読み、今日の朝を表します。\n例文：今朝はいつもより早く目が覚めました。	0	けさ	おととい	きのう	おととし
 special_unique_reading_002	次の文中の「七夕」の読みとして正しいものはどれですか。\n七夕には、願い事を書いた短冊を笹に飾ります。	七夕	「七夕」は「たなばた」と読み、七月七日に行われる星祭りを表します。\n例文：七夕には、願い事を書いた短冊を笹に飾ります。	1	ことし	たなばた	うなばら	ゆうべ

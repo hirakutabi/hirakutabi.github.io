@@ -1,5 +1,5 @@
-# set_id=[nissho_bookkeeping_3_v1]
-# title=[日商簿記3級・基礎問題]
+# set_id=bookkeeping_basic_v1
+# title=簿記・基礎
 # version=4
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 asset_account	次のうち、資産に分類される勘定科目はどれですか。	資産	現金は会社が持つ財産なので資産です。\n借入金は負債、資本金は純資産、売上は収益です。	1	借入金	現金	資本金	売上

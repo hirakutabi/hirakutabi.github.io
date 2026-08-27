@@ -1,0 +1,54 @@
+# set_id=english_grammar_basics_v1
+# title=英文法の基礎
+# version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+q_001	I ___ a student. 空欄に入る語はどれですか。	am	主語がIの現在形ではbe動詞amを使います。	0	am	is	are	be
+q_002	She ___ my sister. 空欄に入る語はどれですか。	is	主語が三人称単数のSheなのでisを使います。	1	am	is	are	be
+q_003	They ___ busy today. 空欄に入る語はどれですか。	are	主語がTheyなのでareを使います。	2	am	is	are	be
+q_004	This is ___ apple. 空欄に入る冠詞はどれですか。	an	appleは母音の音で始まるためanを使います。	3	a	the	無冠詞	an
+q_005	I play tennis every Sunday. この文の時制はどれですか。	現在形	習慣を表すため現在形を使っています。	0	現在形	過去形	現在進行形	未来形
+q_006	Ken ___ soccer after school. 空欄に入る語はどれですか。	plays	主語Kenは三人称単数なので現在形の動詞にsを付けます。	1	play	plays	playing	played
+q_007	My brother ___ TV every evening. 空欄に入る語はどれですか。	watches	watchは三人称単数現在で-esを付けてwatchesになります。	2	watch	watchs	watches	watching
+q_008	We ___ not like coffee. 空欄に入る語はどれですか。	do	一般動詞の現在形をWeで否定するとdo notを使います。	3	are	does	did	do
+q_009	___ she speak English? 空欄に入る語はどれですか。	Does	三人称単数の一般動詞の現在疑問文はDoesで始めます。	0	Does	Do	Is	Did
+q_010	次のうち、正しい複数形はどれですか。	children	childの複数形は不規則変化してchildrenです。	1	childs	children	childes	childrens
+q_011	This is my book. ___ is new. 空欄に入る語はどれですか。	It	単数の物bookを受ける主格代名詞はItです。	2	He	They	It	Its
+q_012	I know Tom. I often talk with ___. 空欄に入る語はどれですか。	him	前置詞withの後には目的格himを使います。	3	he	his	he's	him
+q_013	This bag is ___. 「このかばんは私のものです」となる語はどれですか。	mine	名詞を伴わず「私のもの」を表す所有代名詞はmineです。	0	mine	my	me	I
+q_014	___ name is Lisa. 「彼女の名前はリサです」となる語はどれですか。	Her	名詞nameの前で所有を表すためHerを使います。	1	She	Her	Hers	Her's
+q_015	You ___ swim here. 「ここで泳いではいけません」となる語はどれですか。	must not	強い禁止はmust notで表します。	2	must	can	must not	may
+q_016	Can you play the piano? に対する肯定の短い答えはどれですか。	Yes, I can.	Canで聞かれた疑問文にはcanを使って答えます。	3	Yes, I do.	Yes, I am.	Yes, I play.	Yes, I can.
+q_017	I ___ to the library yesterday. 空欄に入る語はどれですか。	went	yesterdayがあるためgoの過去形wentを使います。	0	went	go	goes	going
+q_018	She ___ dinner last night. 空欄に入る語はどれですか。	cooked	last nightがあるためcookの過去形cookedを使います。	1	cooks	cooked	is cooking	cook
+q_019	We ___ not see the movie yesterday. 空欄に入る語はどれですか。	did	did notの後は動詞の原形seeを使います。	2	do	were	did	had
+q_020	___ you visit Kyoto last year? 空欄に入る語はどれですか。	Did	一般動詞の過去疑問文はDidで始めます。	3	Do	Were	Have	Did
+q_021	I ___ call you tomorrow. 空欄に入る語はどれですか。	will	tomorrowの未来を表すためwillを使えます。	0	will	did	am	was
+q_022	Look! The dog ___ running. 空欄に入る語はどれですか。	is	The dogは単数なので現在進行形はis runningです。	1	are	is	am	be
+q_023	They ___ studying now. 空欄に入る語はどれですか。	are	Theyの現在進行形はare studyingです。	2	is	be	are	were
+q_024	I was reading when he ___. 空欄に入る語はどれですか。	called	過去進行中に起きた動作なのでcallの過去形calledを使います。	3	calls	calling	call	called
+q_025	I have ___ my homework. 空欄に入る語はどれですか。	finished	現在完了はhave＋過去分詞で作ります。	0	finished	finish	finishing	finishes
+q_026	She has lived here ___ 2020. 空欄に入る語はどれですか。	since	起点となる年の前ではsinceを使います。	1	for	since	from	during
+q_027	We have known each other ___ five years. 空欄に入る語はどれですか。	for	期間の長さfive yearsの前ではforを使います。	2	since	at	for	by
+q_028	Have you ever ___ sushi? 空欄に入る語はどれですか。	eaten	現在完了の経験はhave＋過去分詞で、eatの過去分詞はeatenです。	3	ate	eat	eating	eaten
+q_029	This box is ___ than that one. 「より重い」となる語はどれですか。	heavier	heavyの比較級はyをiに変えて-erを付けます。	0	heavier	heavy	heaviest	more heavy
+q_030	Mt. Fuji is the ___ mountain in Japan. 空欄に入る語はどれですか。	highest	範囲内で最も高いのでhighの最上級highestを使います。	1	higher	highest	high	most high
+q_031	This book is ___ interesting than that one. 空欄に入る語はどれですか。	more	比較的長い形容詞interestingの比較級はmore interestingです。	2	most	much	more	many
+q_032	Tom is as tall ___ Ken. 空欄に入る語はどれですか。	as	同じ程度を表す形はas＋形容詞＋asです。	3	than	like	to	as
+q_033	There ___ a cat under the table. 空欄に入る語はどれですか。	is	後ろの名詞a catが単数なのでThere isを使います。	0	is	are	am	be
+q_034	There ___ three books on the desk. 空欄に入る語はどれですか。	are	後ろの名詞three booksが複数なのでThere areを使います。	1	is	are	was	be
+q_035	The keys are ___ the box. 「箱の中に」となる前置詞はどれですか。	in	内部にあることを表す前置詞はinです。	2	on	under	in	at
+q_036	Our class starts ___ nine o'clock. 空欄に入る前置詞はどれですか。	at	具体的な時刻の前ではatを使います。	3	on	in	by	at
+q_037	My birthday is ___ May. 空欄に入る前置詞はどれですか。	in	月の前ではinを使います。	0	in	on	at	for
+q_038	We have a meeting ___ Monday. 空欄に入る前置詞はどれですか。	on	曜日の前ではonを使います。	1	at	on	in	from
+q_039	Please ___ the window. 空欄に入る語はどれですか。	open	肯定の命令文は動詞の原形で始めます。	2	opens	opening	open	opened
+q_040	___ run in the hallway. 「廊下を走るな」となる語はどれですか。	Don't	否定の命令文はDon't＋動詞の原形で作ります。	3	Doesn't	Not	No	Don't
+q_041	I want ___ a doctor. 空欄に入る形はどれですか。	to be	wantの後ではto不定詞を使います。	0	to be	being	be	been
+q_042	My hobby is ___ pictures. 空欄に入る語はどれですか。	drawing	趣味としての動作を表す動名詞drawingが入ります。	1	draw	drawing	drew	to drew
+q_043	It is important ___ breakfast. 空欄に入る形はどれですか。	to eat	It is＋形容詞＋to不定詞の形です。	2	eating	ate	to eat	eat
+q_044	I stayed home ___ it was raining. 空欄に入る接続詞はどれですか。	because	雨が降っていたことが理由なのでbecauseを使います。	3	but	if	when	because
+q_045	I was tired, ___ I finished the work. 逆接を表す語はどれですか。	but	疲れていたが終えた、という逆接なのでbutです。	0	but	so	or	because
+q_046	If it rains tomorrow, we ___ stay home. 空欄に入る語はどれですか。	will	未来の条件を表すif節は現在形、主節はwillを使えます。	1	would	will	are	did
+q_047	English ___ in many countries. 空欄に入る語はどれですか。	is spoken	「英語が話される」という受け身はis spokenです。	2	speaks	is speaking	is spoken	spoke
+q_048	This cake was ___ by my mother. 空欄に入る語はどれですか。	made	過去の受け身はwas＋過去分詞で、makeの過去分詞はmadeです。	3	make	making	makes	made
+q_049	The girl ___ is singing is my sister. 空欄に入る関係代名詞はどれですか。	who	先行詞が人で、後ろの節の主語になるためwhoを使います。	0	who	which	where	when
+q_050	I know the book ___ you bought. 空欄に入る関係代名詞はどれですか。	which	先行詞が物で、後ろの節の目的語になるためwhichを使えます。	1	who	which	where	what

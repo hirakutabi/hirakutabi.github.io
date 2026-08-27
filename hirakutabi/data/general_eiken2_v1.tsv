@@ -1,5 +1,5 @@
-# set_id=adult_eiken2_v1
-# title=大人向け・英検2級
+# set_id=general_eiken2_v1
+# title=大人向け・英語中級
 # version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 achieve_a_goal	With enough practice, you can ___ your goal.	achieve a goal	achieveは「目標などを達成する」という意味です。goalとよく組み合わせて使います。	0	achieve	borrow	divide	escape

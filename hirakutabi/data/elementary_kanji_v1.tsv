@@ -1,5 +1,5 @@
-# set_id=[elementary_kanji_v1]
-# title=[小学生で習う漢字・4択問題]
+# set_id=elementary_kanji_v1
+# title=小学生で習う漢字・4択問題
 # version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 kanji_reading_001	次の言葉の読みとして正しいものはどれですか。\n「湖」	湖	湖は、陸に囲まれた大きな水のたまりです。	0	みずうみ	いけ	かわ	うみ

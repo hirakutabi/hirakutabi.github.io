@@ -1,5 +1,5 @@
-# set_id=[special_reading_compounds_v1]
-# title=[特殊な読み方をする熟語・難読語]
+# set_id=special_reading_compounds_v1
+# title=特殊な読み方をする熟語・難読語
 # version=1
 id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
 special_reading_001	次の文中の「七夕」の読みとして正しいものはどれですか。\n七夕には、願い事を書いた短冊を笹に飾ります。	七夕	「七夕」は「たなばた」と読み、七月七日に行われる星祭りを表します。\n例文：七夕には、願い事を書いた短冊を笹に飾ります。	0	たなばた	かぐら	だし	みこし
