@@ -1,0 +1,54 @@
+# set_id=english_phrasal_verbs_basics_v1
+# title=英熟語・句動詞の基礎
+# version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+q_001	「起きる」に当てはまる用語はどれですか。	get up	get upは、起きる。	0	get up	take off	get on	wait for
+q_002	「wake up」の説明として正しいものはどれですか。	wake up	wake upは、目を覚ます。	1	あきらめる	目を覚ます	乗り物から降りる	耳を傾けて聞く
+q_003	次の説明に最も合うものはどれですか。「探す」	look for	look forは、探す。	2	pick up	make up one's mind	look for	look at
+q_004	用語「look after」が表す内容はどれですか。	look after	look afterは、決心する。	3	調べて分かる	興味がある	求める	決心する
+q_005	「電源などをつける」に当てはまる用語はどれですか。	turn on	turn onは、電源などをつける。	0	turn on	grow up	be good at	depend on
+q_006	「turn off」の説明として正しいものはどれですか。	turn off	turn offは、電源などを消す。	1	外出する	電源などを消す	恐れている	人や意見に賛成する
+q_007	次の説明に最も合うものはどれですか。「衣服などを身につける」	put on	put onは、衣服などを身につける。	2	come back	belong to	put on	hear from
+q_008	用語「take off」が表す内容はどれですか。	take off	take offは、衣服などを脱ぐ。	3	乗り物に乗る	待つ	について考える	衣服などを脱ぐ
+q_009	「あきらめる」に当てはまる用語はどれですか。	give up	give upは、あきらめる。	0	give up	get off	listen to	talk about
+q_010	「pick up」の説明として正しいものはどれですか。	pick up	pick upは、拾い上げる。	1	決心する	拾い上げる	見る	を笑う
+q_011	次の説明に最も合うものはどれですか。「調べて分かる」	find out	find outは、調べて分かる。	2	be interested in	ask for	find out	worry about
+q_012	用語「grow up」が表す内容はどれですか。	grow up	grow upは、成長する。	3	得意である	頼る・次第である	に備える	成長する
+q_013	「外出する」に当てはまる用語はどれですか。	go out	go outは、外出する。	0	go out	be afraid of	agree with	pay for
+q_014	「come back」の説明として正しいものはどれですか。	come back	come backは、戻ってくる。	1	所属する	戻ってくる	人から連絡をもらう	対処する
+q_015	次の説明に最も合うものはどれですか。「乗り物に乗る」	get on	get onは、乗り物に乗る。	2	wait for	think about	get on	take part in
+q_016	用語「get off」が表す内容はどれですか。	get off	get offは、乗り物から降りる。	3	耳を傾けて聞く	について話す	仲よくやっていく	乗り物から降りる
+q_017	「決心する」に当てはまる用語はどれですか。	make up one's mind	make up one's mindは、決心する。	0	make up one's mind	look at	laugh at	run out of
+q_018	「be interested in」の説明として正しいものはどれですか。	be interested in	be interested inは、興味がある。	1	求める	興味がある	について心配する	楽しみに待つ
+q_019	次の説明に最も合うものはどれですか。「得意である」	be good at	be good atは、得意である。	2	depend on	prepare for	be good at	catch up with
+q_020	用語「be afraid of」が表す内容はどれですか。	be afraid of	be afraid ofは、恐れている。	3	人や意見に賛成する	の代金を払う	遅れずについていく	恐れている
+q_021	「所属する」に当てはまる用語はどれですか。	belong to	belong toは、所属する。	0	belong to	hear from	deal with	put off
+q_022	「wait for」の説明として正しいものはどれですか。	wait for	wait forは、待つ。	1	について考える	待つ	参加する	実行する
+q_023	次の説明に最も合うものはどれですか。「耳を傾けて聞く」	listen to	listen toは、耳を傾けて聞く。	2	talk about	get along with	listen to	set up
+q_024	用語「look at」が表す内容はどれですか。	look at	look atは、見る。	3	を笑う	使い果たす	故障する	見る
+q_025	「求める」に当てはまる用語はどれですか。	ask for	ask forは、求める。	0	ask for	worry about	look forward to	call off
+q_026	「depend on」の説明として正しいものはどれですか。	depend on	depend onは、頼る・次第である。	1	に備える	頼る・次第である	追いつく	必要事項を記入する
+q_027	次の説明に最も合うものはどれですか。「人や意見に賛成する」	agree with	agree withは、人や意見に賛成する。	2	pay for	keep up with	agree with	hand in
+q_028	用語「hear from」が表す内容はどれですか。	hear from	hear fromは、人から連絡をもらう。	3	対処する	延期する	解決する・うまくいく	人から連絡をもらう
+q_029	「について考える」に当てはまる用語はどれですか。	think about	think aboutは、について考える。	0	think about	take part in	carry out	come across
+q_030	「talk about」の説明として正しいものはどれですか。	talk about	talk aboutは、について話す。	1	仲よくやっていく	について話す	設立する・準備する	起きる
+q_031	次の説明に最も合うものはどれですか。「を笑う」	laugh at	laugh atは、を笑う。	2	run out of	break down	laugh at	wake up
+q_032	用語「worry about」が表す内容はどれですか。	worry about	worry aboutは、について心配する。	3	楽しみに待つ	中止する	探す	について心配する
+q_033	「に備える」に当てはまる用語はどれですか。	prepare for	prepare forは、に備える。	0	prepare for	catch up with	fill in	look after
+q_034	「pay for」の説明として正しいものはどれですか。	pay for	pay forは、の代金を払う。	1	遅れずについていく	の代金を払う	提出する	電源などをつける
+q_035	次の説明に最も合うものはどれですか。「対処する」	deal with	deal withは、対処する。	2	put off	work out	deal with	turn off
+q_036	用語「take part in」が表す内容はどれですか。	take part in	take part inは、参加する。	3	実行する	偶然出会う	衣服などを身につける	参加する
+q_037	「仲よくやっていく」に当てはまる用語はどれですか。	get along with	get along withは、仲よくやっていく。	0	get along with	set up	get up	take off
+q_038	「run out of」の説明として正しいものはどれですか。	run out of	run out ofは、使い果たす。	1	故障する	使い果たす	目を覚ます	あきらめる
+q_039	次の説明に最も合うものはどれですか。「楽しみに待つ」	look forward to	look forward toは、楽しみに待つ。	2	call off	look for	look forward to	pick up
+q_040	用語「catch up with」が表す内容はどれですか。	catch up with	catch up withは、追いつく。	3	必要事項を記入する	決心する	調べて分かる	追いつく
+q_041	「遅れずについていく」に当てはまる用語はどれですか。	keep up with	keep up withは、遅れずについていく。	0	keep up with	hand in	turn on	grow up
+q_042	「put off」の説明として正しいものはどれですか。	put off	put offは、延期する。	1	解決する・うまくいく	延期する	電源などを消す	外出する
+q_043	次の説明に最も合うものはどれですか。「実行する」	carry out	carry outは、実行する。	2	come across	put on	carry out	come back
+q_044	用語「set up」が表す内容はどれですか。	set up	set upは、設立する・準備する。	3	起きる	衣服などを脱ぐ	乗り物に乗る	設立する・準備する
+q_045	「故障する」に当てはまる用語はどれですか。	break down	break downは、故障する。	0	break down	wake up	give up	get off
+q_046	「call off」の説明として正しいものはどれですか。	call off	call offは、中止する。	1	探す	中止する	拾い上げる	決心する
+q_047	次の説明に最も合うものはどれですか。「必要事項を記入する」	fill in	fill inは、必要事項を記入する。	2	look after	find out	fill in	be interested in
+q_048	用語「hand in」が表す内容はどれですか。	hand in	hand inは、提出する。	3	電源などをつける	成長する	得意である	提出する
+q_049	「解決する・うまくいく」に当てはまる用語はどれですか。	work out	work outは、解決する・うまくいく。	0	work out	turn off	go out	be afraid of
+q_050	「come across」の説明として正しいものはどれですか。	come across	come acrossは、偶然出会う。	1	衣服などを身につける	偶然出会う	戻ってくる	所属する

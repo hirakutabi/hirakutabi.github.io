@@ -1,0 +1,10 @@
+translation_basics_v1.png = 翻訳を示す書類アイコン.png
+world_history_basics_v1.png = 地球儀とピラミッドの歴史文書アイコン.png
+civics_basics_v1.png = 市民制度を描く書類アイコン.png
+study_skills_basics_v1.png = 本とペンと人物の学習アイコン.png
+manners_etiquette_basics_v1.png = お辞儀と名刺_抹茶の作法アイコン.png
+personal_finance_basics_v1.png = コインと財布の財務書類アイコン.png
+health_body_basics_v1.png = ハートと骨を抱く人物アイコン.png
+mathematics_basics_v1.png = 数学グラフと三角定規の学習アイコン.png
+pc_typing_basics_v1.png = ノートpcとキーボードのアイコン.png
+driver_license_written_test_v1.png = 運転ガイドのアイコン.png
