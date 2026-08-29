@@ -27,4 +27,23 @@ document.addEventListener('DOMContentLoaded', () => {
       anchor.classList.add('active');
     }
   });
+
+  // 3. 問題セットTSVのダウンロード計測
+  const questionSetLinks = document.querySelectorAll(
+    'a.material-card[download][href$=".tsv"]'
+  );
+
+  questionSetLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (typeof window.gtag !== 'function') return;
+
+      const setName = link.querySelector('.card-title')?.textContent.trim() || '';
+      const fileName = link.getAttribute('href')?.split('/').pop() || '';
+
+      window.gtag('event', 'question_set_download', {
+        set_name: setName,
+        file_name: fileName
+      });
+    });
+  });
 });
