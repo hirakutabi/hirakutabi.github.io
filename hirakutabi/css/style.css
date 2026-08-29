@@ -502,6 +502,136 @@ main.brand-home {
   text-decoration: underline;
 }
 
+/* Concept Reading */
+.concept-teaser {
+  max-width: 680px;
+  margin-top: 4.5rem;
+  padding-top: 2.75rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.concept-teaser h2 {
+  margin-bottom: 0.65rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.concept-teaser p {
+  margin-bottom: 0.85rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.85;
+}
+
+.concept-teaser a {
+  color: var(--primary);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.concept-teaser a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+main.reading-main {
+  max-width: 720px;
+  padding-top: 4rem;
+}
+
+.reading-header {
+  margin-bottom: 2.75rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.reading-header h1 {
+  font-size: clamp(1.9rem, 4vw, 2.4rem);
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+}
+
+.reading-lead {
+  margin-top: 1rem;
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.reading-content {
+  font-size: 0.98rem;
+  line-height: 2;
+}
+
+.reading-content:empty {
+  min-height: 7rem;
+}
+
+.reading-content h2 {
+  margin: 3rem 0 1rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.55;
+}
+
+.reading-content h2:first-child {
+  margin-top: 0;
+}
+
+.reading-content p {
+  margin-bottom: 1.4rem;
+  color: var(--text-main);
+}
+
+.reading-content ul,
+.reading-content ol {
+  margin-bottom: 1.4rem;
+  padding-left: 1.5rem;
+}
+
+.reading-content li {
+  margin-bottom: 0.55rem;
+}
+
+.reading-feature-list {
+  list-style-position: outside;
+}
+
+.reading-closing {
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border-color);
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.9;
+}
+
+.reading-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.reading-links a {
+  color: var(--primary);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.reading-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 /* Minimal Section Headers */
 .section-header-minimal {
   margin-bottom: 1.5rem;
@@ -793,6 +923,31 @@ details[open] summary.faq-question .faq-toggle-icon {
   border: 0;
 }
 
+/* Keep the expanded navigation comfortable after adding the reading page. */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-strong);
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+}
+
 
 /* Responsive Overrides */
 @media (max-width: 640px) {
@@ -866,6 +1021,44 @@ details[open] summary.faq-question .faq-toggle-icon {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.65rem;
+  }
+
+  .concept-teaser {
+    margin-top: 3.5rem;
+    padding-top: 2.25rem;
+  }
+
+  main.reading-main {
+    padding-top: 3rem;
+  }
+
+  .reading-header {
+    margin-bottom: 2.25rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .reading-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .reading-content {
+    font-size: 0.95rem;
+    line-height: 1.95;
+  }
+
+  .reading-content h2 {
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+  }
+
+  .reading-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.65rem;
+  }
+
+  .reading-lead {
+    font-size: 0.95rem;
   }
 
   .footer-container {
