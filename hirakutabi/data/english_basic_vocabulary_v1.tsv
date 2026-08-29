@@ -1,0 +1,54 @@
+# set_id=english_basic_vocabulary_v1
+# title=英単語 基本語彙
+# version=1
+id	prompt	keyword	explanation	correct_index	choice_a	choice_b	choice_c	choice_d
+q_001	「達成する」を表す英単語はどれですか。	achieve	achieveは「達成する」という意味です。	0	achieve	allow	arrive	borrow
+q_002	My teacher gave me useful ___. 空欄に入る最も適切な語はどれですか。	advice	adviceは「助言」という意味です。	1	example	advice	future	opinion
+q_003	「許可する」を表す英単語はどれですか。	allow	allowは「許可する」という意味です。	2	arrive	borrow	allow	choose
+q_004	We will ___ at the station at noon. 空欄に入る最も適切な語はどれですか。	arrive	arriveは「到着する」という意味です。	3	borrow	choose	decide	arrive
+q_005	「借りる」を表す英単語はどれですか。	borrow	borrowは「借りる」という意味です。	0	borrow	choose	decide	explain
+q_006	Please ___ one answer from the four. 空欄に入る最も適切な語はどれですか。	choose	chooseは「選ぶ」という意味です。	1	decide	choose	explain	happen
+q_007	「決める」を表す英単語はどれですか。	decide	decideは「決める」という意味です。	2	explain	happen	decide	improve
+q_008	My idea is ___ from yours. 空欄に入る最も適切な語はどれですか。	different	differentは「異なる」という意味です。	3	famous	necessary	popular	different
+q_009	「〜の間に」を表す英単語はどれですか。	during	duringは「〜の間に」という意味です。	0	during	before	after	without
+q_010	We have ___ time to finish the task. 空欄に入る最も適切な語はどれですか。	enough	enoughは「十分な」という意味です。	1	many	enough	several	few
+q_011	「例」を表す英単語はどれですか。	example	exampleは「例」という意味です。	2	future	information	example	opinion
+q_012	Can you ___ the rule again? 空欄に入る最も適切な語はどれですか。	explain	explainは「説明する」という意味です。	3	happen	improve	include	explain
+q_013	「有名な」を表す英単語はどれですか。	famous	famousは「有名な」という意味です。	0	famous	necessary	popular	possible
+q_014	She hopes to be a doctor in the ___. 空欄に入る最も適切な語はどれですか。	future	futureは「未来」という意味です。	1	information	future	opinion	weather
+q_015	「起こる」を表す英単語はどれですか。	happen	happenは「起こる」という意味です。	2	improve	include	happen	invite
+q_016	Daily practice will ___ your skills. 空欄に入る最も適切な語はどれですか。	improve	improveは「改善する」という意味です。	3	include	invite	learn	improve
+q_017	「含む」を表す英単語はどれですか。	include	includeは「含む」という意味です。	0	include	invite	learn	leave
+q_018	I found useful ___ on the website. 空欄に入る最も適切な語はどれですか。	information	informationは「情報」という意味です。	1	opinion	information	weather	environment
+q_019	「招待する」を表す英単語はどれですか。	invite	inviteは「招待する」という意味です。	2	learn	leave	invite	practice
+q_020	Children ___ many things through play. 空欄に入る最も適切な語はどれですか。	learn	learnは「学ぶ」という意味です。	3	leave	practice	prepare	learn
+q_021	「出発する・去る」を表す英単語はどれですか。	leave	leaveは「出発する・去る」という意味です。	0	leave	practice	prepare	promise
+q_022	A passport is ___ for this trip. 空欄に入る最も適切な語はどれですか。	necessary	necessaryは「必要な」という意味です。	1	popular	necessary	possible	safe
+q_023	「意見」を表す英単語はどれですか。	opinion	opinionは「意見」という意味です。	2	weather	environment	opinion	advice
+q_024	This song is ___ among young people. 空欄に入る最も適切な語はどれですか。	popular	popularは「人気のある」という意味です。	3	possible	safe	useful	popular
+q_025	「可能な」を表す英単語はどれですか。	possible	possibleは「可能な」という意味です。	0	possible	safe	useful	different
+q_026	You should ___ speaking English every day. 空欄に入る最も適切な語はどれですか。	practice	practiceは「練習する」という意味です。	1	prepare	practice	promise	receive
+q_027	「準備する」を表す英単語はどれですか。	prepare	prepareは「準備する」という意味です。	2	promise	receive	prepare	remember
+q_028	I ___ to return the book tomorrow. 空欄に入る最も適切な語はどれですか。	promise	promiseは「約束する」という意味です。	3	receive	include	achieve	promise
+q_029	「受け取る」を表す英単語はどれですか。	receive	receiveは「受け取る」という意味です。	0	receive	remember	return	spend
+q_030	Please ___ to lock the door. 空欄に入る最も適切な語はどれですか。	remember	rememberは「覚えている・思い出す」という意味です。	1	spend	remember	suggest	teach
+q_031	「返す・戻る」を表す英単語はどれですか。	return	returnは「返す・戻る」という意味です。	2	spend	suggest	return	teach
+q_032	The path passed its safety inspection, so it is ___ to walk on. 空欄に入る最も適切な語はどれですか。	safe	safeは「安全な」という意味です。	3	useful	different	famous	safe
+q_033	「いくつかの」を表す英単語はどれですか。	several	severalは「いくつかの」という意味です。	0	several	each	every	no
+q_034	We ___ two hours on the project. 空欄に入る最も適切な語はどれですか。	spend	spendは「費やす」という意味です。	1	suggest	spend	teach	understand
+q_035	「提案する」を表す英単語はどれですか。	suggest	suggestは「提案する」という意味です。	2	teach	understand	suggest	volunteer
+q_036	Ms. Green will ___ us science. 空欄に入る最も適切な語はどれですか。	teach	teachは「教える」という意味です。	3	understand	volunteer	worry	teach
+q_037	「〜だけれども」を表す英単語はどれですか。	though	thoughは「〜だけれども」という意味です。	0	though	because	if	unless
+q_038	The students did not work separately; they worked ___. 空欄に入る最も適切な語はどれですか。	together	togetherは「一緒に」という意味です。	1	quietly	together	carefully	alone
+q_039	「理解する」を表す英単語はどれですか。	understand	understandは「理解する」という意味です。	2	volunteer	worry	understand	agree
+q_040	This map shows every station, so it is very ___ for travelers. 空欄に入る最も適切な語はどれですか。	useful	usefulは「役に立つ」という意味です。	3	different	famous	popular	useful
+q_041	「たいてい」を表す英単語はどれですか。	usually	usuallyは「たいてい」という意味です。	0	usually	always	sometimes	often
+q_042	Many students ___ at the local event. 空欄に入る最も適切な語はどれですか。	volunteer	volunteerは「ボランティアとして活動する」という意味です。	1	worry	volunteer	agree	believe
+q_043	「天気」を表す英単語はどれですか。	weather	weatherは「天気」という意味です。	2	environment	advice	weather	example
+q_044	He left home ___ his umbrella. 空欄に入る最も適切な語はどれですか。	without	withoutは「〜なしで」という意味です。	3	during	before	after	without
+q_045	「心配する」を表す英単語はどれですか。	worry	worryは「心配する」という意味です。	0	worry	agree	believe	carry
+q_046	I ___ with your opinion. 空欄に入る最も適切な語はどれですか。	agree	agreeは「同意する」という意味です。	1	believe	agree	carry	discover
+q_047	「信じる」を表す英単語はどれですか。	believe	believeは「信じる」という意味です。	2	carry	discover	believe	achieve
+q_048	Please ___ this box carefully. 空欄に入る最も適切な語はどれですか。	carry	carryは「運ぶ」という意味です。	3	discover	achieve	allow	carry
+q_049	「発見する」を表す英単語はどれですか。	discover	discoverは「発見する」という意味です。	0	discover	achieve	allow	arrive
+q_050	We should protect the natural ___. 空欄に入る最も適切な語はどれですか。	environment	environmentは「環境」という意味です。	1	advice	environment	example	future
