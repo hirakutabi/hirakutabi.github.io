@@ -38,6 +38,22 @@ html {
   scroll-behavior: smooth;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
 /* 本文・ナビ・ボタンは OS標準 system-ui */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
@@ -660,6 +676,18 @@ main.reading-main {
 }
 
 /* Minimal Grid Layout for Material Cards */
+.material-category + .material-category {
+  margin-top: 2.75rem;
+}
+
+.material-category-title {
+  margin-bottom: 1.25rem;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
 .materials-grid {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1040,6 +1068,10 @@ details[open] summary.faq-question .faq-toggle-icon {
   .app-facts {
     margin-top: 3.5rem;
     padding-top: 2.25rem;
+  }
+
+  .material-category + .material-category {
+    margin-top: 2.25rem;
   }
 
   main.reading-main {

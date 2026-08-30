@@ -21,6 +21,7 @@
   <meta property="og:site_name" content="おもいつきのつづき">
   <meta property="og:locale" content="ja_JP">
   <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@hirakutabi">
 
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -60,13 +61,13 @@
     
     <!-- ページヘッダー -->
     <div class="page-header">
-      <h1 class="page-title">「ひらくたび」問題セット</h1>
+      <h1 class="page-title">「ひらくたび」<span class="text-nowrap">問題セット</span></h1>
       <p class="page-subtitle">アプリにダウンロードして読み込める動作確認用サンプルデータ一覧です。</p>
     </div>
 
     <!-- ソフトな案内バナー & 注意事項 -->
     <div style="background: var(--bg-warm); border: 1px solid var(--bg-warm-border); border-radius: var(--radius-md); padding: 1.1rem 1.25rem; margin-bottom: 2.5rem; display: flex; align-items: center; gap: 1rem;">
-      <img src="icons/hirakutabi_icon.png" alt="ひらくたび" style="width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0; border: 1px solid var(--bg-warm-border);">
+      <img src="icons/hirakutabi_icon.png" alt="ひらくたび" width="192" height="192" style="width: 44px; height: 44px; border-radius: 10px; flex-shrink: 0; border: 1px solid var(--bg-warm-border);">
       <div>
         <p style="font-size: 0.9rem; color: var(--text-main); font-weight: 500; margin-bottom: 0.2rem;">
           問題ファイルを保存後、Androidアプリ「ひらくたび」で開いてください。設定内の追加メニューから読み込んでもお使いになれます。
@@ -81,126 +82,13 @@
     </div>
 
     <!-- 追加問題セット一覧 -->
-    <section>
-      <div class="materials-grid">
-        
-
-        <!-- 追加問題セット20種 -->
-        <a class="material-card" href="data/prefectures_capitals_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/prefectures_capitals_v1.png" alt="都道府県・県庁所在地">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">都道府県・県庁所在地</h3>
-            <p class="card-desc">日本の都道府県と県庁所在地を4択で確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/japan_geography_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/japan_geography_basics_v1.png" alt="日本地理の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">日本地理の基礎</h3>
-            <p class="card-desc">日本の地形、地方区分、気候や産業の基礎を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/japanese_history_people_events_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/japanese_history_people_events_v1.png" alt="日本史の人物と出来事">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">日本史の人物と出来事</h3>
-            <p class="card-desc">日本史の主要な人物と出来事を時代を追って確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/git_github_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/git_github_basics_v1.png" alt="Git・GitHubの基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">Git・GitHubの基礎</h3>
-            <p class="card-desc">リポジトリ、コミット、ブランチや共同作業の基本概念を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/units_measurement_conversion_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/units_measurement_conversion_v1.png" alt="単位・量・換算の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">単位・量・換算の基礎</h3>
-            <p class="card-desc">長さ、質量、面積、体積、時間や速さの単位換算を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/english_basic_vocabulary_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/english_basic_vocabulary_v1.png" alt="英単語 基本語彙">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">英単語 基本語彙</h3>
-            <p class="card-desc">中学・高校で使う基本英単語の意味と例文での使い方を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/world_countries_capitals_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/world_countries_capitals_v1.png" alt="世界の国と首都">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">世界の国と首都</h3>
-            <p class="card-desc">世界の主な国と首都の組み合わせを4択で学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/world_geography_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/world_geography_basics_v1.png" alt="世界地理の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">世界地理の基礎</h3>
-            <p class="card-desc">大陸、海洋、地形や気候など世界地理の基礎を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
+    <div class="material-categories">
+      <section class="material-category" aria-labelledby="materials-japanese">
+        <h2 id="materials-japanese" class="material-category-title">国語</h2>
+        <div class="materials-grid">
         <a class="material-card" href="data/japanese_proverbs_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/japanese_proverbs_v1.png" alt="ことわざ">
+            <img src="icons/japanese_proverbs_v1.png" alt="ことわざ" width="512" height="512">
           </div>
           <div class="card-body">
             <h3 class="card-title">ことわざ</h3>
@@ -214,7 +102,7 @@
 
         <a class="material-card" href="data/japanese_idioms_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/japanese_idioms_v1.png" alt="慣用句">
+            <img src="icons/japanese_idioms_v1.png" alt="慣用句" width="512" height="512">
           </div>
           <div class="card-body">
             <h3 class="card-title">慣用句</h3>
@@ -228,7 +116,7 @@
 
         <a class="material-card" href="data/yoji_jukugo_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/yoji_jukugo_v1.png" alt="四字熟語">
+            <img src="icons/yoji_jukugo_v1.png" alt="四字熟語" width="512" height="512">
           </div>
           <div class="card-body">
             <h3 class="card-title">四字熟語</h3>
@@ -242,7 +130,7 @@
 
         <a class="material-card" href="data/commonly_misused_japanese_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/commonly_misused_japanese_v1.png" alt="間違えやすい日本語">
+            <img src="icons/commonly_misused_japanese_v1.png" alt="間違えやすい日本語" width="512" height="512" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">間違えやすい日本語</h3>
@@ -256,7 +144,7 @@
 
         <a class="material-card" href="data/classical_japanese_vocabulary_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/classical_japanese_vocabulary_v1.png" alt="古文単語">
+            <img src="icons/classical_japanese_vocabulary_v1.png" alt="古文単語" width="512" height="512" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">古文単語</h3>
@@ -268,136 +156,9 @@
           </div>
         </a>
 
-        <a class="material-card" href="data/elements_chemical_formulas_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/elements_chemical_formulas_v1.png" alt="元素記号・化学式">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">元素記号・化学式</h3>
-            <p class="card-desc">基本的な元素記号と代表的な物質の化学式を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/junior_high_science_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/junior_high_science_v1.png" alt="中学理科総合">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">中学理科総合</h3>
-            <p class="card-desc">物理、化学、生物、地学の基礎を横断して復習できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/weather_meteorology_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/weather_meteorology_v1.png" alt="天気と気象">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">天気と気象</h3>
-            <p class="card-desc">雲、気圧、前線など天気と気象の基本を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/stars_space_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/stars_space_v1.png" alt="星と宇宙">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">星と宇宙</h3>
-            <p class="card-desc">太陽系、恒星、月など天体と宇宙の基礎を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/it_passport_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/it_passport_basics_v1.png" alt="ITパスポート基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">ITパスポート基礎</h3>
-            <p class="card-desc">ITパスポートで扱う経営、技術、管理の基礎概念を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/information_security_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/information_security_basics_v1.png" alt="情報セキュリティ基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">情報セキュリティ基礎</h3>
-            <p class="card-desc">パスワード、暗号化、攻撃対策など安全なIT利用を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/disaster_preparedness_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/disaster_preparedness_basics_v1.png" alt="防災の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">防災の基礎</h3>
-            <p class="card-desc">地震や風水害への備えと災害時の基本行動を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/cooking_food_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/cooking_food_basics_v1.png" alt="料理・食品の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">料理・食品の基礎</h3>
-            <p class="card-desc">調理方法、食材、衛生や保存の基本知識を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/business_honorifics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/business_honorifics_v1.png" alt="ビジネス敬語">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">ビジネス敬語</h3>
-            <p class="card-desc">職場や電話対応で使う基本的な敬語表現を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 国語 -->
         <a class="material-card" href="data/kokugo_summer_13_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/kokugo_summer_13_v1.png" alt="国語（漢字・接続語・指示語）">
+            <img src="icons/kokugo_summer_13_v1.png" alt="国語（漢字・接続語・指示語）" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">国語（漢字・接続語・指示語）</h3>
@@ -409,85 +170,9 @@
           </div>
         </a>
 
-        <!-- 理科 (動植物) -->
-        <a class="material-card" href="data/rika_summer_v1_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/rika_summer_v1_v1.png" alt="理科（動植物）">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">理科（動植物）</h3>
-            <p class="card-desc">身近な生き物や植物のからだの仕組みと生態に関する問題。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">.tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 理科 (観察など) -->
-        <a class="material-card" href="data/rika_summer_13_v3.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/rika_summer_13_v3.png" alt="理科（観察など）">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">理科（観察など）</h3>
-            <p class="card-desc">観察レポート、ルーペや顕微鏡の扱い、身近な生物の観察方法を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">.tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 理科総合 -->
-        <a class="material-card" href="data/rika_summer_13_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/rika_summer_13_v1.png" alt="理科">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">理科</h3>
-            <p class="card-desc">力や物質、植物・動物など理科の基礎を幅広く学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">.tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 簿記 (基礎) -->
-        <a class="material-card" href="data/bookkeeping_basic_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/bookkeeping_basic_v1.png" alt="簿記・基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">簿記・基礎</h3>
-            <p class="card-desc">仕訳の基本、勘定科目、基本概念を身に付ける200問。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">.tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 簿記 (実践・応用) -->
-        <a class="material-card" href="data/bookkeeping_intermediate_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/bookkeeping_intermediate_v1.png" alt="実践簿記・応用">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">実践簿記・応用</h3>
-            <p class="card-desc">決算整理、帳簿、伝票、財務諸表など実践的な簿記を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">.tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <!-- 特殊な読み・熟字訓 (v2) -->
         <a class="material-card" href="data/special_reading_compounds_v2.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/special_reading_compounds_v2.png" alt="特殊な読み・熟字訓">
+            <img src="icons/special_reading_compounds_v2.png" alt="特殊な読み・熟字訓" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">日常で出会う特殊な読み・熟字訓</h3>
@@ -499,10 +184,9 @@
           </div>
         </a>
 
-        <!-- 特殊な読み・難読語 (v1) -->
         <a class="material-card" href="data/special_reading_compounds_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/special_reading_compounds_v1.png" alt="難読語・地名など">
+            <img src="icons/special_reading_compounds_v1.png" alt="難読語・地名など" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">特殊な読み方をする熟語・難読語</h3>
@@ -514,10 +198,9 @@
           </div>
         </a>
 
-        <!-- 小学生 漢字4択問題 -->
         <a class="material-card" href="data/elementary_kanji_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/elementary_kanji_v1.png" alt="小学生で習う漢字">
+            <img src="icons/elementary_kanji_v1.png" alt="小学生で習う漢字" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">小学生で習う漢字・4択問題</h3>
@@ -529,108 +212,9 @@
           </div>
         </a>
 
-        <!-- 追加問題セット10種 -->
-        <a class="material-card" href="data/driving_license_exam_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/driving_license_exam_basics_v1.png" alt="運転免許 学科試験の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">運転免許 学科試験の基礎</h3>
-            <p class="card-desc">安全確認、標識、交差点など運転時に必要な基礎知識を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/junior_high_math_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/junior_high_math_basics_v1.png" alt="中学数学の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">中学数学の基礎</h3>
-            <p class="card-desc">数と式、関数、図形、確率など中学数学の基本を復習できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/world_history_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/world_history_basics_v1.png" alt="世界史の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">世界史の基礎</h3>
-            <p class="card-desc">古代文明から現代の国際社会まで、世界史の基本事項を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/human_body_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/human_body_basics_v1.png" alt="人体・からだの基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">人体・からだの基礎</h3>
-            <p class="card-desc">臓器、血液、神経など人体のつくりと働きの基礎を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/economics_money_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/economics_money_basics_v1.png" alt="経済・お金の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">経済・お金の基礎</h3>
-            <p class="card-desc">需要と供給、物価、金融や家計管理などの基本概念を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/civics_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/civics_basics_v1.png" alt="政治・公民の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">政治・公民の基礎</h3>
-            <p class="card-desc">憲法、三権分立、選挙、地方自治など公民の基礎を確認できます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
-        <a class="material-card" href="data/pc_skills_basics_v1.tsv" download>
-          <div class="card-image-wrapper">
-            <img src="icons/pc_skills_basics_v1.png" alt="PC・パソコン操作の基礎">
-          </div>
-          <div class="card-body">
-            <h3 class="card-title">PC・パソコン操作の基礎</h3>
-            <p class="card-desc">ファイル操作、ブラウザー、表計算などパソコン利用の基本を学べます。</p>
-          </div>
-          <div class="card-footer">
-            <span class="file-type-badge">50問 / .tsv</span>
-            <span class="download-btn">ダウンロード &darr;</span>
-          </div>
-        </a>
-
         <a class="material-card" href="data/japanese_literature_authors_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/japanese_literature_authors_v1.png" alt="文学作品と作者">
+            <img src="icons/japanese_literature_authors_v1.png" alt="文学作品と作者" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">文学作品と作者</h3>
@@ -641,14 +225,19 @@
             <span class="download-btn">ダウンロード &darr;</span>
           </div>
         </a>
+        </div>
+      </section>
 
-        <a class="material-card" href="data/everyday_manners_basics_v1.tsv" download>
+      <section class="material-category" aria-labelledby="materials-english">
+        <h2 id="materials-english" class="material-category-title">英語</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/english_basic_vocabulary_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/everyday_manners_basics_v1.png" alt="暮らしのマナー・常識">
+            <img src="icons/english_basic_vocabulary_v1.png" alt="英単語 基本語彙" width="512" height="512" loading="lazy">
           </div>
           <div class="card-body">
-            <h3 class="card-title">暮らしのマナー・常識</h3>
-            <p class="card-desc">訪問、共有空間、連絡など日常生活で役立つ配慮を学べます。</p>
+            <h3 class="card-title">英単語 基本語彙</h3>
+            <p class="card-desc">中学・高校で使う基本英単語の意味と例文での使い方を学べます。</p>
           </div>
           <div class="card-footer">
             <span class="file-type-badge">50問 / .tsv</span>
@@ -656,10 +245,9 @@
           </div>
         </a>
 
-        <!-- 英語の問題セットは一覧の最後に配置 -->
         <a class="material-card" href="data/english_grammar_basics_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/english_grammar_basics_v1.png" alt="英文法の基礎">
+            <img src="icons/english_grammar_basics_v1.png" alt="英文法の基礎" width="512" height="512" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">英文法の基礎</h3>
@@ -673,7 +261,7 @@
 
         <a class="material-card" href="data/english_phrasal_verbs_basics_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/english_phrasal_verbs_basics_v1.png" alt="英熟語・句動詞の基礎">
+            <img src="icons/english_phrasal_verbs_basics_v1.png" alt="英熟語・句動詞の基礎" width="1254" height="1254" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">英熟語・句動詞の基礎</h3>
@@ -684,10 +272,10 @@
             <span class="download-btn">ダウンロード &darr;</span>
           </div>
         </a>
-        <!-- 大人向け・英語中級 -->
+
         <a class="material-card" href="data/general_eiken2_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/general_eiken2_v1.png" alt="大人向け・英語中級">
+            <img src="icons/general_eiken2_v1.png" alt="大人向け・英語中級" width="30" height="30" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">大人向け・英語中級</h3>
@@ -699,10 +287,9 @@
           </div>
         </a>
 
-        <!-- 子ども向け 基礎英語 -->
         <a class="material-card" href="data/kids_basic_English_v1.tsv" download>
           <div class="card-image-wrapper">
-            <img src="icons/kids_basic_English_v1.png" alt="子ども向け 基礎英語">
+            <img src="icons/kids_basic_English_v1.png" alt="子ども向け 基礎英語" width="30" height="30" loading="lazy">
           </div>
           <div class="card-body">
             <h3 class="card-title">子ども向け・基礎英語</h3>
@@ -713,11 +300,440 @@
             <span class="download-btn">ダウンロード &darr;</span>
           </div>
         </a>
+        </div>
+      </section>
 
+      <section class="material-category" aria-labelledby="materials-math">
+        <h2 id="materials-math" class="material-category-title">算数・数学</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/units_measurement_conversion_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/units_measurement_conversion_v1.png" alt="単位・量・換算の基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">単位・量・換算の基礎</h3>
+            <p class="card-desc">長さ、質量、面積、体積、時間や速さの単位換算を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
 
+        <a class="material-card" href="data/junior_high_math_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/junior_high_math_basics_v1.png" alt="中学数学の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">中学数学の基礎</h3>
+            <p class="card-desc">数と式、関数、図形、確率など中学数学の基本を復習できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+        </div>
+      </section>
 
-      </div>
-    </section>
+      <section class="material-category" aria-labelledby="materials-science">
+        <h2 id="materials-science" class="material-category-title">理科</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/elements_chemical_formulas_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/elements_chemical_formulas_v1.png" alt="元素記号・化学式" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">元素記号・化学式</h3>
+            <p class="card-desc">基本的な元素記号と代表的な物質の化学式を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/junior_high_science_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/junior_high_science_v1.png" alt="中学理科総合" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">中学理科総合</h3>
+            <p class="card-desc">物理、化学、生物、地学の基礎を横断して復習できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/weather_meteorology_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/weather_meteorology_v1.png" alt="天気と気象" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">天気と気象</h3>
+            <p class="card-desc">雲、気圧、前線など天気と気象の基本を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/stars_space_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/stars_space_v1.png" alt="星と宇宙" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">星と宇宙</h3>
+            <p class="card-desc">太陽系、恒星、月など天体と宇宙の基礎を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/rika_summer_v1_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/rika_summer_v1_v1.png" alt="理科（動植物）" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科（動植物）</h3>
+            <p class="card-desc">身近な生き物や植物のからだの仕組みと生態に関する問題。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/rika_summer_13_v3.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/rika_summer_13_v3.png" alt="理科（観察など）" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科（観察など）</h3>
+            <p class="card-desc">観察レポート、ルーペや顕微鏡の扱い、身近な生物の観察方法を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/rika_summer_13_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/rika_summer_13_v1.png" alt="理科" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">理科</h3>
+            <p class="card-desc">力や物質、植物・動物など理科の基礎を幅広く学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/human_body_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/human_body_basics_v1.png" alt="人体・からだの基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">人体・からだの基礎</h3>
+            <p class="card-desc">臓器、血液、神経など人体のつくりと働きの基礎を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+        </div>
+      </section>
+
+      <section class="material-category" aria-labelledby="materials-social-studies">
+        <h2 id="materials-social-studies" class="material-category-title">社会</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/prefectures_capitals_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/prefectures_capitals_v1.png" alt="都道府県・県庁所在地" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">都道府県・県庁所在地</h3>
+            <p class="card-desc">日本の都道府県と県庁所在地を4択で確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/japan_geography_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/japan_geography_basics_v1.png" alt="日本地理の基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">日本地理の基礎</h3>
+            <p class="card-desc">日本の地形、地方区分、気候や産業の基礎を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/japanese_history_people_events_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/japanese_history_people_events_v1.png" alt="日本史の人物と出来事" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">日本史の人物と出来事</h3>
+            <p class="card-desc">日本史の主要な人物と出来事を時代を追って確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/world_countries_capitals_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/world_countries_capitals_v1.png" alt="世界の国と首都" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">世界の国と首都</h3>
+            <p class="card-desc">世界の主な国と首都の組み合わせを4択で学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/world_geography_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/world_geography_basics_v1.png" alt="世界地理の基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">世界地理の基礎</h3>
+            <p class="card-desc">大陸、海洋、地形や気候など世界地理の基礎を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/world_history_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/world_history_basics_v1.png" alt="世界史の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">世界史の基礎</h3>
+            <p class="card-desc">古代文明から現代の国際社会まで、世界史の基本事項を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/civics_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/civics_basics_v1.png" alt="政治・公民の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">政治・公民の基礎</h3>
+            <p class="card-desc">憲法、三権分立、選挙、地方自治など公民の基礎を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+        </div>
+      </section>
+
+      <section class="material-category" aria-labelledby="materials-work-it">
+        <h2 id="materials-work-it" class="material-category-title">資格・仕事・IT</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/git_github_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/git_github_basics_v1.png" alt="Git・GitHubの基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Git・GitHubの基礎</h3>
+            <p class="card-desc">リポジトリ、コミット、ブランチや共同作業の基本概念を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/it_passport_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/it_passport_basics_v1.png" alt="ITパスポート基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">ITパスポート基礎</h3>
+            <p class="card-desc">ITパスポートで扱う経営、技術、管理の基礎概念を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/information_security_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/information_security_basics_v1.png" alt="情報セキュリティ基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">情報セキュリティ基礎</h3>
+            <p class="card-desc">パスワード、暗号化、攻撃対策など安全なIT利用を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/business_honorifics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/business_honorifics_v1.png" alt="ビジネス敬語" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">ビジネス敬語</h3>
+            <p class="card-desc">職場や電話対応で使う基本的な敬語表現を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/bookkeeping_basic_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/bookkeeping_basic_v1.png" alt="簿記・基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">簿記・基礎</h3>
+            <p class="card-desc">仕訳の基本、勘定科目、基本概念を身に付ける200問。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/bookkeeping_intermediate_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/bookkeeping_intermediate_v1.png" alt="実践簿記・応用" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">実践簿記・応用</h3>
+            <p class="card-desc">決算整理、帳簿、伝票、財務諸表など実践的な簿記を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">.tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/driving_license_exam_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/driving_license_exam_basics_v1.png" alt="運転免許 学科試験の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">運転免許 学科試験の基礎</h3>
+            <p class="card-desc">安全確認、標識、交差点など運転時に必要な基礎知識を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/pc_skills_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/pc_skills_basics_v1.png" alt="PC・パソコン操作の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">PC・パソコン操作の基礎</h3>
+            <p class="card-desc">ファイル操作、ブラウザー、表計算などパソコン利用の基本を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+        </div>
+      </section>
+
+      <section class="material-category" aria-labelledby="materials-life">
+        <h2 id="materials-life" class="material-category-title">暮らし・一般教養</h2>
+        <div class="materials-grid">
+        <a class="material-card" href="data/disaster_preparedness_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/disaster_preparedness_basics_v1.png" alt="防災の基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">防災の基礎</h3>
+            <p class="card-desc">地震や風水害への備えと災害時の基本行動を確認できます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/cooking_food_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/cooking_food_basics_v1.png" alt="料理・食品の基礎" width="512" height="512" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">料理・食品の基礎</h3>
+            <p class="card-desc">調理方法、食材、衛生や保存の基本知識を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/economics_money_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/economics_money_basics_v1.png" alt="経済・お金の基礎" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">経済・お金の基礎</h3>
+            <p class="card-desc">需要と供給、物価、金融や家計管理などの基本概念を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+
+        <a class="material-card" href="data/everyday_manners_basics_v1.tsv" download>
+          <div class="card-image-wrapper">
+            <img src="icons/everyday_manners_basics_v1.png" alt="暮らしのマナー・常識" width="1254" height="1254" loading="lazy">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">暮らしのマナー・常識</h3>
+            <p class="card-desc">訪問、共有空間、連絡など日常生活で役立つ配慮を学べます。</p>
+          </div>
+          <div class="card-footer">
+            <span class="file-type-badge">50問 / .tsv</span>
+            <span class="download-btn">ダウンロード &darr;</span>
+          </div>
+        </a>
+        </div>
+      </section>
+    </div>
 
   </main>
 
@@ -730,6 +746,7 @@
         <li><a href="support.html">サポート (Q&amp;A)</a></li>
         <li><a href="privacy.html">プライバシーポリシー</a></li>
         <li><a href="about.html">大切にしていること</a></li>
+        <li><a href="https://x.com/hirakutabi" rel="me">公式X</a></li>
       </ul>
       <p class="copyright">&copy; おもいつきのつづき</p>
     </div>
