@@ -47,4 +47,22 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  // 4. 問題プレビュー(details)の開閉計測
+  const exampleDetails = document.querySelectorAll('.card-example');
+
+  exampleDetails.forEach(details => {
+    details.addEventListener('toggle', () => {
+      if (!details.open) return; // 開いた時だけ計測(閉じた時は無視)
+      if (typeof window.gtag !== 'function') return;
+
+      const card = details.closest('.material-card');
+      const setName = card?.querySelector('.card-title')?.textContent.trim() || '';
+
+      window.gtag('event', 'question_set_preview_open', {
+        set_name: setName
+      });
+    });
+  });
+
 });
