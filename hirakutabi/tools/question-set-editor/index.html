@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ひらくたび 問題セット編集ツール</title>
+  <meta name="description" content="ひらくたびの問題セットTSVを編集し、画像付きZIPをブラウザ内で作成するツールです。">
+  <link rel="icon" href="../../favicon.ico" sizes="any">
+  <link rel="stylesheet" href="css/tool.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-container">
+      <a href="../../../" class="site-brand">おもいつきのつづき</a>
+      <nav aria-label="関連ページ">
+        <a href="../../index.html">ひらくたびトップ</a>
+        <a href="../../materials.html">問題セット</a>
+        <a href="../../support.html">サポート</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="tool-shell">
+    <header class="tool-intro">
+      <p class="eyebrow">ひらくたび</p>
+      <h1>問題セット編集ツール</h1>
+      <p class="lead">既存の問題セットTSVを確認・編集し、必要な画像を加えてZIPにまとめられます。</p>
+      <p class="privacy-note">
+        <strong>すべてブラウザ内で処理します。</strong><br>
+        TSVや画像はサーバーへ送信されません。作業途中の内容は、このブラウザ内に保存できます。
+      </p>
+    </header>
+
+    <section class="workspace-panel" aria-labelledby="load-title">
+      <div class="panel-heading">
+        <div>
+          <p class="step-label">1. 読み込む</p>
+          <h2 id="load-title">TSVを選択</h2>
+        </div>
+        <div class="button-row">
+          <label class="button button-primary" for="tsv-file">TSVを選択</label>
+          <input id="tsv-file" class="visually-hidden" type="file" accept=".tsv,text/tab-separated-values,text/plain">
+          <label class="button button-secondary" for="zip-file">ZIPを読み込んで再編集</label>
+          <input id="zip-file" class="visually-hidden" type="file" accept=".zip,application/zip">
+        </div>
+      </div>
+      <p id="file-status" class="muted" role="status">まだTSVまたはZIPを選択していません。</p>
+
+      <div id="resume-panel" class="resume-panel" hidden>
+        <div>
+          <strong>前回の作業があります</strong>
+          <p id="resume-description"></p>
+        </div>
+        <button id="resume-button" class="button button-secondary" type="button">前回の作業を再開</button>
+      </div>
+
+      <div id="metadata-panel" class="metadata-grid" hidden>
+        <label>
+          <span>set_id</span>
+          <input id="set-id" type="text" autocomplete="off" spellcheck="false">
+        </label>
+        <label>
+          <span>title</span>
+          <input id="set-title" type="text" autocomplete="off">
+        </label>
+        <label>
+          <span>version</span>
+          <input id="set-version" type="text" inputmode="numeric" autocomplete="off">
+        </label>
+        <div class="metadata-count">
+          <span>問題数</span>
+          <strong id="problem-count">0</strong>
+        </div>
+      </div>
+      <p id="save-status" class="save-status" role="status" hidden></p>
+    </section>
+
+    <section id="editor-section" class="editor-section" aria-labelledby="editor-title" hidden>
+      <div class="editor-topbar">
+        <div>
+          <p class="step-label">2. 確認・編集する</p>
+          <h2 id="editor-title">問題一覧</h2>
+        </div>
+        <div class="editor-actions">
+          <label for="problem-jump">問題へ移動</label>
+          <select id="problem-jump"></select>
+          <button id="collapse-all" class="button button-quiet" type="button">すべて折りたたむ</button>
+          <button id="expand-all" class="button button-quiet" type="button">すべて展開</button>
+        </div>
+      </div>
+      <div id="problem-list" class="problem-list"></div>
+    </section>
+
+    <section id="output-section" class="workspace-panel output-panel" aria-labelledby="output-title" hidden>
+      <div class="panel-heading output-heading">
+        <div>
+          <p class="step-label">3. 検査・保存する</p>
+          <h2 id="output-title">出力</h2>
+        </div>
+        <div class="button-row">
+          <button id="validate-button" class="button button-secondary" type="button">検査する</button>
+          <button id="save-tsv-button" class="button button-secondary" type="button">TSVを保存</button>
+          <button id="create-zip-button" class="button button-primary" type="button">ZIPを作成</button>
+        </div>
+      </div>
+
+      <div id="validation-results" class="validation-results" aria-live="polite">
+        <p class="muted">検査結果はここに表示されます。</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© おもいつきのつづき</p>
+  </footer>
+
+  <script defer src="js/app.bundle.js"></script>
+</body>
+</html>
