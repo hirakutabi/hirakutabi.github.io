@@ -9,6 +9,24 @@
     gtag('js', new Date());
     gtag('config', 'G-EMWGLFLPD4');
   </script>
+  <script>
+  const formFrame = document.getElementById('google-form');
+  const formContainer = document.getElementById('survey-form');
+
+  let initialLoad = true;
+
+  formFrame.addEventListener('load', () => {
+    if (initialLoad) {
+      initialLoad = false;
+      return;
+    }
+
+    formContainer.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>アンケート | おもいつきのつづき</title>
