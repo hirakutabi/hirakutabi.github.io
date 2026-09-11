@@ -9,24 +9,6 @@
     gtag('js', new Date());
     gtag('config', 'G-EMWGLFLPD4');
   </script>
-  <script>
-  const formFrame = document.getElementById('google-form');
-  const formContainer = document.getElementById('survey-form');
-
-  let initialLoad = true;
-
-  formFrame.addEventListener('load', () => {
-    if (initialLoad) {
-      initialLoad = false;
-      return;
-    }
-
-    formContainer.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start'
-    });
-  });
-</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>アンケート | おもいつきのつづき</title>
@@ -55,8 +37,8 @@
     <div class="content-block">
       アンケートはGoogle Formsを利用しています。アプリの学習履歴や設定情報が自動的に送信されることはありません。回答内容は利用者自身が送信した場合にのみ収集されます。
     </div>
-    <div class="survey-form">
-     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSchRiVgLgGL_XYzbhzI0G4W3IaTPYJykDXBEV6AF2oDt5JIxA/viewform?embedded=true" height="1996" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…
+    <div class="survey-form" id="survey-form">
+     <iframe id="google-form" src="https://docs.google.com/forms/d/e/1FAIpQLSchRiVgLgGL_XYzbhzI0G4W3IaTPYJykDXBEV6AF2oDt5JIxA/viewform?embedded=true" height="1996" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…
     </iframe>
    </div>
   </main>
@@ -73,6 +55,23 @@
       <p class="copyright">&copy; おもいつきのつづき</p>
     </div>
   </footer>
+  <script>
+    const formFrame = document.getElementById('google-form');
+    const formContainer = document.getElementById('survey-form');
 
+    let initialLoad = true;
+
+    formFrame.addEventListener('load', () => {
+      if (initialLoad) {
+        initialLoad = false;
+        return;
+      }
+
+      formContainer.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    });
+  </script>
 </body>
 </html>
